@@ -32,9 +32,9 @@ recipes.addShaped("book_Silk", bookSilk,
 
 var bookUnbreak =  itemUtils.createEnchantedBook(<enchantment:minecraft:unbreaking>.makeEnchantment(3));
 recipes.addShaped("book_unbreak", bookUnbreak,
-[[<birdsfoods:ice_cream_bacone>, <minecraft:experience_bottle>, <birdsfoods:bacone>],
+[[<birdsfoods:hot_chocolate>, <minecraft:experience_bottle>, <birdsfoods:cheese_fries>],
 [<minecraft:experience_bottle>, <minecraft:writable_book>, <minecraft:experience_bottle>],
-[<birdsfoods:bacone>, <minecraft:experience_bottle>, <birdsfoods:ice_cream_bacone>]]);
+[<birdsfoods:cheese_fries>, <minecraft:experience_bottle>, <birdsfoods:hot_chocolate>]]);
 
 var bookFortune =  itemUtils.createEnchantedBook(<enchantment:minecraft:fortune>.makeEnchantment(3));
 recipes.addShaped("book_fortune", bookFortune,
