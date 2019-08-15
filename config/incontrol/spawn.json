@@ -45,5 +45,31 @@
     "dimension":0,
     "mob": "zawa:greenanaconda",
     "result": "deny"
+  },
+  
+  {
+    "dimension": 0,
+    "mob": "minecraft:blaze",
+    "spawner":"true",
+    "result": "allow"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:blaze",
+    "result": "deny"
+  },
+
+  {
+    "dimension": 0,
+    "mob": "minecraft:slime",
+    "spawner":"true",
+    "result": "allow"
+  },
+
+  {
+    "dimension": 0,
+    "mob": "minecraft:husk",
+    "spawner":"true",
+    "result": "allow"
   }
 ]

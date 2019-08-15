@@ -1,1 +1,16 @@
-[]
+[
+    {
+      "dimension": 0,
+      "block": ["minecraft:hardened_clay", "minecraft:netherack"],
+      "mobs": [
+        {
+          "mob": "minecraft:blaze",
+          "weight": 20,
+          "groupcountmin": 3,
+          "groupcountmax": 9
+        }
+      ]
+    }
+  ]
+
+  
