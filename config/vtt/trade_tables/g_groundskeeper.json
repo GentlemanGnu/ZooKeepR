@@ -1,0 +1,23 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_groundskeeper",
+
+	Offers:{
+		Recipes:[
+		
+            {action:"add", buy:{id:"minecraft:glass_bottle", Count:64}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:16}}, CareerLevel:1},
+            {action:"add", buy:{id:"composter:compost", Count:{min:45,max:58}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:5}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:double_plant", Damage:2, Count:{min:32,max:50}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:18}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:tallgrass", Damage:2, Count:{min:15,max:25}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:rotten_flesh", Count:{min:32,max:64}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, CareerLevel:1},
+            {action:"add", buy:{id:"birdsfoods:sweet_tea", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+            
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:15}}, sell:{id:"minecraft:feather", Count:{min:10,max:19}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:15}}, sell:{id:"exoticbirds:mystery_egg", Count:{min:40,max:64}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1}, sell:{id:"cfm:item_soap", Count:{min:8,max:15}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1}, sell:{id:"cfm:item_cup", Count:{min:8,max:15}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:4,max:8}}, sell:{id:"composter:compost",Count:{min:50,max:64}}, CareerLevel:1}
+		]
+
+}
+}

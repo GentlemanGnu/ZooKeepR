@@ -1,0 +1,19 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"tool",
+	
+	Offers:{Recipes:[{action:"clear"},
+
+	{action:"add",buy:{id:"minecraft:coal",Count:{min:16,max:24}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:iron_ingot",Count:{min:7,max:9}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:diamond",Count:{min:3,max:4}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:22,max:40}},sell:{id:"minecraft:diamond_pickaxe",Count:1,tag:{ench:"random"}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:6,max:8}},sell:{id:"minecraft:iron_shovel",Count:1,tag:{ench:"random"}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:16,max:22}},sell:{id:"minecraft:iron_pickaxe",Count:1,tag:{ench:"random"}},CareerLevel:1}
+
+]
+	}
+	
+	}
+	

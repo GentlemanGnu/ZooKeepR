@@ -1,0 +1,33 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Juicer",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add", buy:{id:"cfm:item_cup", Count:{min:8,max:15}}, sell:{id:"modcurrency:coin", Damage:4,Count:3}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:ice", Count:{min:50,max:64}}, sell:{id:"modcurrency:coin", Damage:4,Count:12}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:pumpkin", Count:64}, sell:{id:"modcurrency:coin", Damage:4,Count:16}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:glowstone_dust", Count:64}, sell:{id:"modcurrency:coin", Damage:4,Count:8}, CareerLevel:1},
+		{action:"add", buy:{id:"cookingforblockheads:ice_unit", Count:1}, sell:{id:"modcurrency:coin", Damage:4,Count:5}, CareerLevel:1},
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:herbal_tea",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:iced_tea",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:hot_chocolate",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:chocolate_milk",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:carrot_juice",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:cactus_juice",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:pumpkin_spice_latte",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:bottle_of_milk",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"simplystrawberries:strawberrymilkshakeitem",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "plants2:regen_heal"}},CareerLevel:1}
+
+
+
+                    ]
+	        }
+	
+	}
+	
+	

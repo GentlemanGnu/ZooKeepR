@@ -1,0 +1,16 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			{action:"add", buy:{id:"minecraft:leather",Count:{min:9,max:12}},sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:leather_leggings",Count:1},sell:{id:"modcurrency:coin", Damage:4, Count:{min:7,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:saddle",Count:1},sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:rabbit_hide",Count:{min:18,max:24}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1}
+		]
+	}
+
+}

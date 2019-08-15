@@ -1,0 +1,46 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Gifter",
+	
+	Offers:{
+		Recipes:[
+
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:3},sell:{id:"gbook:guidebook",Count:1, tag:{Book: "gbook:zookeeprguide.xml"}},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_avocet",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:gorilla_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:turtle_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:orca_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:lion_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:elephant_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:monkey_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:tiger_plush",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"zawa:crocodile_tooth",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_redbilledhornbill",Count:1},CareerLevel:1, Chance: 0.25},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_ptarmigan",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_groundhornbill",Count:1},CareerLevel:1, Chance: 0.25},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_turaco_redcrested",Count:1},CareerLevel:1, Chance: 0.25},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_falcon",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_turaco_greatblue",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_turaco_violet",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_saddlebilledstork",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"exoticbirds:phoenix_feather",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_capercaillie_male",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_capercaillie_female",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_kori_bustard",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_courser",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_avocet",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"exoticbirds:peacock_feather",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_ostrich",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_tropicbird",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"faunanatural:feather_puffin",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"plants2:amaranthus_h",Count:1},CareerLevel:1, Chance: 0.25},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"betteranimalsplus:antler",Count:1},CareerLevel:1, Chance: 0.25}
+
+
+
+                    ]
+	        }
+	
+	}
+	
+	

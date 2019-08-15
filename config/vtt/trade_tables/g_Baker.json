@@ -1,0 +1,29 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Baker",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add", buy:{id:"quark:sugar_block", Count:64}, sell:{id:"modcurrency:coin", Damage:4,Count:{min:15,max:30}}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:wheat", Count:{min:18,max:22}}, sell:{id:"modcurrency:coin", Damage:4,Count:1}, CareerLevel:1},
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:veg_pie",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:bacon_quiche",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:quiche",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:apple_pie",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:cake",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:plum_pudding",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:chicken_pot_pie",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:4},sell:{id:"ferdinandsflowers:block_birthday",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:cookie",Count:{min:6,max:12}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:shortbread_cookie",Count:{min:6,max:12}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:carrot_juice",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1}
+
+                    ]
+	        }
+	
+	}
+	
+	

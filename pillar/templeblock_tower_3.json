@@ -1,0 +1,41 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": -1,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"minecraft:mutated_birch_forest", 
+		"nt:cold_forest", 
+		"nt:shrubland",
+		"nt:white_orchard",
+		"nt:stone_mountains",
+		"minecraft:savanna",
+		"minecraft:stone_beach",
+		"nt:mega_maple_forest",
+		"nt:heath",
+		"nt:blue_taiga"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}

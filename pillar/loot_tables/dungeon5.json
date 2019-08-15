@@ -1,0 +1,74 @@
+{
+    "pools": [
+        {"rolls": {"min": 3, "max": 8},
+            "entries": [
+                {"type": "item", "name": "fluxnetworks:fluxconfigurator", "weight": 8},
+                {"type": "item", "name": "birdsfoods:herbal_tea", "weight": 10},
+                {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 7}],"weight": 3},
+                {"type": "item", "name": "basketcase:container_basket_medium", "weight": 5},
+                {"type": "item", "name": "basketcase:container_basket_large", "weight": 5},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "zawa:amur_leopard_hide", "functions": [{"function": "set_count", "count": {"min": 4, "max": 9}}], "weight": 1},
+                {"type": "item", "name": "zawa:polar_bear_hide", "functions": [{"function": "set_count", "count": {"min": 4, "max": 9}}], "weight": 1},
+                {"type": "item", "name": "zawa:tiger_fur", "functions": [{"function": "set_count", "count": {"min": 4, "max": 9}}], "weight": 1},                
+                {"type": "item", "name": "minecraft:diamond", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},                
+                {"type": "item", "name": "plants2:generic", "functions": [{"function": "set_data", "data": 13}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "micwands:wandpacify", "weight": 2},
+                {"type": "item", "name": "basketcase:container_basket_small", "weight": 5},
+                {"type": "item", "name": "minecraft:experience_bottle", "weight": 2},
+                {"type": "item", "name": "minecraft:skull", "weight": 2},
+                {"type": "item", "name": "oreberries:gold_oreberry_bush", "weight": 2},
+                {"type": "item", "name": "oreberries:essence_oreberry_bush", "weight": 2},
+                {"type": "item", "name": "thermalfoundation:upgrade", "functions": [{"function": "set_data", "data": 34}, {"function": "set_count", "count": 1}],"weight": 2},
+                {"type": "item", "name": "thermalfoundation:upgrade", "functions": [{"function": "set_data", "data": 35}, {"function": "set_count", "count": 1}],"weight": 2},
+                {"type": "item", "name": "modcurrency:banknote", "functions": [{"function": "set_data", "data": 3}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "biomepainttools:biome_pencil", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:horse_upgrade_type", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:heart_food", "weight": 2},
+                {"type": "empty", "weight": 5}
+                        ]
+        },
+               
+        {"rolls": 1,
+            "entries": [
+                {"type": "item","name": "zoocraftdiscoveries:bunny_slippers", "weight": 5},
+                {"type": "item","name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 10},
+                {"type": "item","name": "betteranimalsplus:wolfhead_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_2", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_3", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_4", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_2", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_3", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_4", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:hirschgeistskull_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:antler", "weight": 5},
+                {"type": "item","name": "betteranimalsplus:goatcheese", "weight": 5},
+                {"type": "item","name": "betteranimalsplus:boarhead_2", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_3", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_4", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:deerhead_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:deerhead_2", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_1", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_2", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_3", "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_4", "weight": 2},
+                {"type": "item","name": "minecraft:emerald", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 10}
+                        ]
+        },
+
+        {"rolls": 1,
+            "entries": [
+                {"type": "item","name": "zoocraftdiscoveries:cookie_bush", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "waterstrainer:super_worm", "weight": 1},
+                {"type": "item","name": "plants2:ampelopsis_a_vine", "functions": [{"function": "set_count", "count":{"min": 4, "max": 6}}], "weight": 2},
+                {"type": "item","name": "plants2:akebia_q_vine", "functions": [{"function": "set_count", "count":{"min": 4, "max": 6}}], "weight": 2},
+                {"type": "item","name": "plants2:androsace_a", "functions": [{"function": "set_count", "count":{"min": 4, "max": 6}}], "weight": 2},
+                {"type": "item","name": "plants2:afgekia_m",  "functions": [{"function": "set_count", "count":{"min": 4, "max": 6}}], "weight": 2},
+                {"type": "item","name": "plants2:adlumia_f", "functions": [{"function": "set_count", "count":{"min": 4, "max": 6}}], "weight": 2},
+                {"type": "empty", "weight": 5}
+            ]
+        }
+    ]
+}

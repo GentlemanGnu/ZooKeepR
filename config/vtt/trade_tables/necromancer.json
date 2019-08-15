@@ -1,0 +1,33 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"necromancer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			{
+				action: "add",
+				CareerLevel: 1,
+				buyB: {id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, buy: {id:"minecraft:skull",Count:1,Damage:0},
+				sell: {id:"minecraft:spawn_egg",Count:1,Damage:0,tag:{EntityTag:{id:"minecraft:skeleton"}}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buyB: {id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, buy: {id:"minecraft:skull",Count:1,Damage:2},
+				sell: {id:"minecraft:spawn_egg",Count:1,Damage:0,tag:{EntityTag:{id:"minecraft:zombie"}}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buyB: {id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, buy: {id:"minecraft:skull",Count:1,Damage:4},
+				sell: {id:"minecraft:spawn_egg",Count:1,Damage:0,tag:{EntityTag:{id:"minecraft:creeper"}}}
+			}
+			
+		]
+	}
+
+}

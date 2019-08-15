@@ -1,0 +1,70 @@
+{
+    "pools": [
+        
+
+        {"rolls": {"min": 2, "max": 3},
+            "entries": [
+                {"type": "item", "name": "minecraft:wheat", "weight": 5},
+                {"type": "item", "name": "cyclicmagic:magic_net", "weight": 5},
+                {"type": "item", "name": "minecraft:brewing_stand", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 5},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "minecraft:diamond", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},                
+                {"type": "item", "name": "minecraft:gold_ingot", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 5},
+                {"type": "item", "name": "birdsfoods:chocolate_bar", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:chili_cheese_fries", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:ice_cream_bacone", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "plants2:ambrosia_a", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:berry_waffles", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:astronaut_ice_cream", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1}]
+        },
+            
+        {"rolls": {"min": 1, "max": 3},
+        "entries": [
+            {"type": "item", "name": "minecraft:golden_apple", "weight": 20},
+            {"type": "item", "name": "minecraft:emerald", "weight": 20},
+            {"type": "item", "name": "minecraft:ender_pearl",  "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 20},
+            {"type": "item","name": "minecraft:name_tag", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 30},
+            {"type": "item", "name": "minecraft:book", "weight": 10, "functions": [{"function": "enchant_randomly"}]},
+            {"type": "item","name": "cyclicmagic:sprout_seed", "weight": 5},
+            {"type": "item","name": "armorplus:lava_crystal", "weight": 5},
+            {"type": "item","name": "plants2:crystal_sapling", "weight": 5},
+            {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+            {"type": "item","name": "minecraft:slime_ball", "weight": 5},
+            {"type": "item","name": "minecraft:quartz", "weight": 5},
+            {"type": "item","name": "cfm:item_soap", "weight": 5},
+            {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 5}],"weight": 5},
+            {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 4}],"weight": 5},
+            {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 7}],"weight": 1}]
+    },
+
+        {"rolls": {"min": 1, "max": 3},
+            "entries": [
+                {"type": "item","name": "cyclicmagic:charm_antidote", "weight": 2},
+                {"type": "item","name": "cyclicmagic:charm_fire", "weight": 2},
+                {"type": "item","name": "cyclicmagic:charm_speed", "weight": 2},
+                {"type": "item","name": "cyclicmagic:horse_upgrade_variant", "weight": 2},
+                {"type": "item","name": "cyclicmagic:magic_net", "weight": 20},
+                {"type": "item","name": "cyclicmagic:water_candle", "weight": 2},
+                {"type": "item","name": "doggytalents:breeding_bone", "weight": 2},
+                {"type": "item","name": "doggytalents:sunglasses", "weight": 2},
+                {"type": "item","name": "doggytalents:throw_bone", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:heart_food", "weight": 2},
+                {"type": "item","name": "minecraft:blaze_rod", "weight": 2},
+                {"type": "item","name": "minecraft:experience_bottle", "weight": 2},
+                {"type": "item","name": "birdsfoods:chocolate_milk", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:coal", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:preservation_chamber", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:fruit_basket", "weight": 2},
+                {"type": "item","name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item","name": "cookingforblockheads:ice_unit", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:heating_unit", "weight": 2},
+                {"type": "item","name": "minecraft:emerald", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:glass_bottle", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "fluxnetworks:flux", "functions": [{"function": "set_count", "count":{"min": 9, "max": 64}}], "weight": 2},
+                {"type": "item","name": "doggytalents:dog_bath", "weight": 2}
+                        ]
+        }
+
+        
+    ]
+}

@@ -1,0 +1,22 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Jeweller",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:50,max:64}},sell:{id:"minecraft:diamond",Count:{min:11,max:19}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:50,max:64}},sell:{id:"minecraft:emerald",Count:{min:8,max:16}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:50,max:64}},sell:{id:"bibliocraft:biblioglasses",Damage:2,Count:{min:8,max:16}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:50,max:64}},sell:{id:"minecraft:totem_of_undying",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:50,max:64}},sell:{id:"minecraft:nether_star",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:15,max:32}},sell:{id:"wings:amethyst",Count:{min:8,max:16}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:10,max:20}},sell:{id:"plants2:generic",Damage:7,Count:{min:8,max:16}},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:10,max:20}},sell:{id:"plants2:generic",Damage:5,Count:{min:8,max:16}},CareerLevel:1}
+
+                    ]
+	        }
+	
+	}
+	
+	

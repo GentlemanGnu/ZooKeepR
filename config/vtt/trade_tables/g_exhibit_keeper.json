@@ -1,0 +1,25 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_exhibit_keeper",
+
+	Offers:{
+		Recipes:[
+		
+            {action:"add", buy:{id:"cyclicmagic:magic_net", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:double_plant", Damage:2, Count:{min:32,max:50}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:barrel", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:20,max:25}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:bird_perch", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:3,max:9}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:brush", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:7}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:kibble", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:3,max:8}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:scratching_post", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:10,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:swing_wheel", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:13}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:zoo_painting", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:13}}, CareerLevel:1},
+	
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, sell:{id:"minecraft:double_plant", Damage:2, Count:{min:15,max:25}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cyclicmagic:magic_net",Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:10}}, sell:{id:"minecraft:cooked_porkchop", Count:{min:32,max:50}}, CareerLevel:1}
+
+		]
+
+}
+}

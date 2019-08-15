@@ -1,0 +1,22 @@
+{ 
+	Profession: "minecraft:farmer", 
+	Career:"farmer",
+	
+	Offers:{Recipes:
+	[{action:"clear"},
+	{action:"add",buy:{id:"minecraft:wheat",Count:{min:18,max:22}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:potato",Count:{min:15,max:19}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:carrot",Count:{min:15,max:19}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:pumpkin",Count:{min:8,max:13}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"melon_block",Count:{min:7,max:12}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:apple",Count:{min:5,max:7}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:cookie",Count:{min:6,max:10}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:pumpkin_pie",Count:{min:2,max:3}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:bread",Count:{min:2,max:4}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:cake",Count:1},CareerLevel:1}
+	]
+	}
+	
+	}
+	

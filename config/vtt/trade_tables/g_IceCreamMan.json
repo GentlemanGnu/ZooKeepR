@@ -1,0 +1,26 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_IceCreamMan",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add", buy:{id:"quark:sugar_block", Count:64}, sell:{id:"modcurrency:coin", Damage:4,Count:{min:15,max:30}}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:wheat", Count:{min:18,max:22}}, sell:{id:"modcurrency:coin", Damage:4,Count:1}, CareerLevel:1},
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:4},sell:{id:"birdsfoods:ice_cream_bacone",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:ice_cream",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:3},sell:{id:"birdsfoods:ice_cream_sundae",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:bacon_pancakes",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:astronaut_ice_cream",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:molasses",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:melon_juice",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"simplystrawberries:strawberrymelonsaladitem",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1}
+
+                    ]
+	        }
+	
+	}
+	
+	

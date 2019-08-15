@@ -1,0 +1,17 @@
+{
+	profession: {
+		name: "vtt:concession",
+		texture: "minecraft:textures/entity/villager/butcher.png",
+		zombieTexture: "minecraft:textures/entity/zombie_villager/butcher.png"
+	},
+	careers: [
+	"g_Juicer",
+	"g_Griller",
+	"g_Jeweller",
+	"g_Snacker",
+	"g_Baker",
+	"g_Waffler",
+	"g_IceCreamMan",
+	"g_Gifter"
+	]
+}

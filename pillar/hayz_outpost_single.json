@@ -1,0 +1,38 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": -1,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": ["minecraft:forest_hills", 
+		"nt:mega_maple_forest",
+		"minecraft:taiga_cold",
+		"nt:cold_mega_taiga",
+		"nt:cold_birch_forest",
+		"minecraft:extreme_hills_with_trees",
+		"nt:glacier",
+		"nt:cold_blue_taiga_hills"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:snow_block",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}

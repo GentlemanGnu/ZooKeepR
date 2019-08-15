@@ -1,0 +1,20 @@
+{ 
+	Profession:"vtt:tinkerer", 
+	Career:"g_mailman",
+
+	Offers:{
+		Recipes:[
+		
+            {action:"add", buy:{id:"minecraft:writable_book", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:6}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:book", Count:10}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:3,max:7}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:paper", Count:64}, sell:{id:"modcurrency:coin", Damage:4, Count:2}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:paper", Count:1,tag:{display:{Name:"Letter Home"}}}, sell:{id:"modcurrency:coin", Damage:4, Count:2}, CareerLevel:1},
+
+            
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:8}}, sell:{id:"plants2:blackberry", Count:{min:5,max:10}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:2}, 
+                  sell:{id:"aquaculture:loot", Damage:3, Count:1, tag:{display:{Name:"Message from Home"}}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:8}}, sell:{id:"aquaculture:loot", Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:10}}, sell:{id:"minecraft:book",Count:1}, CareerLevel:1}
+		]}
+}

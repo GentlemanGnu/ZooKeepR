@@ -1,0 +1,38 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": -5,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"nt:autumn_forest",
+		"minecraft:birch_forest_hills",
+		"nt:blossom_forest",
+		"nt:cold_roofed_forest_hills",
+		"nt:green_mixed_forest",
+		"nt:aegean_archipelago",
+		"minecraft:forest"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:snow_block",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 450
+
+}

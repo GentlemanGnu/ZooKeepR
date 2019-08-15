@@ -1,0 +1,34 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"shepherd",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+			{action:"add", buy:{id:"minecraft:shears",Count:1},sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:string",Count:{min:20,max:30}},sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:3}}, CareerLevel:1},
+
+			// each wool colour
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:0, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:1, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:2, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:3, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:4, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:5, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:6, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:7, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:8, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:9, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:10, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:11, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:12, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:13, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:14, Count:4}, CareerLevel:1, Chance: 0.25},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:wool", Damage:15, Count:4}, CareerLevel:1, Chance: 0.25},
+			
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4,Count:{min:12,max:15}},sell:{id:"minecraft:shears",Count:1,tag:{ench:"random"}}, CareerLevel:1}
+
+		]
+	}
+
+}

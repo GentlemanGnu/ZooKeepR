@@ -1,0 +1,30 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Griller",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add", buy:{id:"minecraft:cactus", Count:{min:50,max:64}}, sell:{id:"modcurrency:coin", Damage:4,Count:3}, CareerLevel:1},
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:roasted_pumpkin_seeds",Count:10},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:5},sell:{id:"birdsfoods:t_veggie_hamburger",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:3},sell:{id:"birdsfoods:cheeseburger",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:5},sell:{id:"birdsfoods:t_cheesesteak",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:5},sell:{id:"birdsfoods:t_egg_and_cheese_sandwich",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"birdsfoods:grilled_pumpkin",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:pumpkin_spice_latte",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"birdsfoods:grilled_melon",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:grilled_cactus",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:4},sell:{id:"birdsfoods:t_bacon_cheeseburger",Count:1},CareerLevel:1},       
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:cactus_juice",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1}
+
+
+
+                    ]
+	        }
+	
+	}
+	
+	

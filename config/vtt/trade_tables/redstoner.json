@@ -1,0 +1,29 @@
+{ 
+	Profession: "vtt:redstoner", 
+	Career:"redstoner",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"birdsfoods:beef_jerky",Count:{min:10,max:20}},sell:{id:"modcurrency:coin", Damage:4, Count:10}, CareerLevel:1},
+			{action:"add", buy:{id:"birdsfoods:melon_juice",Count:{min:12,max:16}},sell:{id:"modcurrency:coin", Damage:4, Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:slime",Count:{min:15,max:20}},sell:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:8}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:quartz",Count:{min:15,max:20}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:redstone_block",Count:{min:10,max:12}},sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:redstone_torch",Count:64},sell:{id:"modcurrency:coin", Damage:4, Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:ender_pearl",Count:{min:60,max:64}},sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:8}},sell:{id:"minecraft:slime_ball",Count:{min:15,max:20}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64},sell:{id:"minecraft:observer",Count:{min:8,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64},sell:{id:"minecraft:dispenser",Count:{min:6,max:9}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:10},sell:{id:"cyclicmagic:target",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20},sell:{id:"cyclicmagic:sound_player",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64},sell:{id:"thermalfoundation:material", Damage:514, Count:{min:10,max:15}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:20,max:30}},sell:{id:"thermalfoundation:material", Damage:893, Count:{min:16,max:32}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64},sell:{id:"thermalfoundation:material", Damage:515, Count:{min:7,max:14}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:10,max:16}},sell:{id:"minecraft:daylight_detector",Count:1},CareerLevel:1}
+
+		]
+	}
+
+}

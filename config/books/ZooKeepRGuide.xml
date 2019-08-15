@@ -1,0 +1,499 @@
+<book title="ZooKeepR" cover="gbook:cover" fontSize="0.6">
+
+	<include ref="gbook:xml/standard.xml" />
+
+	<chapter id="home">
+		<section>
+			<p scale="1.5"> <link ref="the_basics">The Basics</link> </p>
+			<p scale="1.5"> <link ref="food">Food</link> </p>
+			<p scale="1.5"> <link ref="getting_places">Getting Places</link> </p>
+			<p scale="1.5"> <link ref="getting_resources">Getting Resources</link> </p>
+			<p scale="1.5"> <link ref="getting_organised">Getting Organised</link> </p>
+			<p scale="1.5"> <link ref="animals">Animals</link> </p>
+			<p scale="1.5"> <link ref="beyond">Beyond the Basics</link> </p>
+			<p scale="1.5"> <link ref="tips">Tips and Tricks</link> </p>
+			<p scale="1.5"> <link ref="credits">Credits</link> </p>
+			<p>-----</p>
+			<p>ZooKeepR does not have a quest line.  This is not a modpack designed for "Beating".  It is a sandbox modpack, and I invite you to bring your creativity with you as you play the pack. The goal of this pack is to build, to explore, to create, and to have fun.
+			</p>
+		</section>
+		<section>
+
+
+			<p align="center"> <image src="gbook:ostrich100" tw="100" th="100" align="center"/></p>
+			<p> **************</p>
+			<p color="#606060">This book is a work in progress.</p>
+
+			<p color="#606060" align="center">
+				It may eventually contain the information you need to be a brilliant ZooKeepR.
+			</p>
+		</section>
+
+		<section>
+
+			<p align="center"><image src="gbook:modpack" tw="150" th="130"/></p>
+			<p space="0" align="center" scale="2">Guidebook</p>
+			<p align="center">Join the Gnu Creations Discord</p>
+			<p align="center">https://discord.gg/EbD9grr</p>
+			<p align="center"><image src="gbook:stamp100" tw="100" th="100"/></p> 
+
+		</section>
+	</chapter>      
+
+	<chapter id="the_basics">
+		<section>
+
+			<title bold="true" scale="1.5">The Basics</title>
+
+			<title bold="true" scale="1">Just Enough Items (JEI)</title>
+			<p>
+				Opening your inventory, will now show a whole new array of items on the right hand side of your screen.  You'll find a search bar where you can type to find certain items, or you could try typing @[modname] to see what a specific mod introduces.  Hovering over an item will show a tooltip, including what it is called, which mod has added it, and sometimes how to use it.
+			</p>
+			<p align="center"><image src="gbook:jei150" tw="100" th="100"/></p> 
+
+			<title bold="true" scale="1">Light Grid Overlay (F7)</title>
+			<p>
+				F7 toggles the light level overlay.  This mod will put red and yellow x on the ground around you.  A yellow x indicates a light level where a hostile mob could spawn at night.  A red x indicates a hostile mob could spawn anytime.
+			</p>
+			<p align="center"><image src="gbook:zombiewithxs" tw="140" th="140"/></p>
+
+			<title bold="true" scale="1">Additional Controls</title>
+			<p>
+				Pressing Escape>Options>Controls will allow you to change which keys are used to do things in game.  Reading through these keybinds is often quite useful in finding out different things that mods can do.
+			</p>
+
+		</section>
+
+	</chapter>
+
+	<chapter id="food">
+		<section>
+
+			<title bold="true" scale="1.5">Food</title>
+
+			<title bold="true" scale="1">Cooking with Blockheads</title>
+			<p align="center"><image src="gbook:blockheadkitchen120" tw="120" th="120"/></p>
+			<p>
+				Cooking with blockheads adds a multiblock kitchen, which means there are many blocks for the kitchen that work together if place by one another.  Your ingredients and food can be stored in the cupboards.  The Cooking for Blockheads sink does not need to be attached to a water source, but it can act as a watersource for other mods.  Interacting with the cooking table will allow you to see what can be cooked with all of the ingredients in the multiblock and in your inventory.
+			</p>
+
+		</section>
+
+		<section>
+
+			<title bold="true" scale="1">Bird's Foods</title>
+			<p>Bird's Foods adds a whole range of new foods! You can finally upgrade from steak and bread. These foods can be crafted in an inventory, or in the Multiblock Kitchen from Cooking with Blockheads.  Here are some examples of the foods added:</p>
+			<p align="center"><image src="gbook:foods" tw="140" th="140"/></p>
+
+		</section>
+	</chapter>
+
+	<chapter id="getting_places">
+		<section>
+
+			<title bold="true" scale="1.5">Getting Places</title>
+			<p align="center"><image src="gbook:waystone" tw="100" th="100"/></p>
+			<p>
+				Walking, sprinting, riding on horses and other animals, using waystones, and flying are all ways you can travel around in ZooKeepR.  When you spawn, you’ll have a Purple Warp Stone and a Stone Waystone in your pockets.  Waystones are also found in villages and throughout the world.  Right-Clicking on a waystone shows the name of the village and the names of all waystones you have previously clicked on. 
+			</p>
+			<p>
+				With an empty hand, shift+right click the waystones.  This will let you rename, and set to global if desired. This only works if you are first to find it.
+			</p>
+			<p align="center"><image src="gbook:wings80" tw="80" th="80"/></p>
+			<p>
+				The Wings mod adds in a variety of wings that you can craft.  There is a  keybind you’ll need to set before you can start flying.  Flying with these wings cost hunger/saturation so make sure you have enough food before you start.
+			</p>
+
+			<p>And of course, you can always ride on your Phoenix.</p>
+			<p align="center"><image src="gbook:phoenix" tw="100" th="100"/></p>
+			<p>  (See the Exotic Birds Mod and Wiki for further information)</p>
+
+		</section>
+	</chapter>
+
+	<chapter id="getting_resources">
+		<section>
+			<title bold="true" scale="1.5">Getting Resources</title>
+			<p>
+				There are many ways to acquire the resources you will need to build your zoo.  Besides exploring the world and collecting items, you can fish, or automatically fish, for some amazing loot. Mining and farming is also as fruitful. Some mobs drop some awesome loot too!
+			</p>
+
+			<p>
+				You will usually find there is at least a couple of ways to get any of the resources used in crafting within ZooKeepR.  This is not aimed to be a grindy, or heavily directed pack.
+			</p>
+
+			<p>
+				TIP: You can enchant your axe with Lumbering,  to chop down an entire tree in a single chop. and your pickaxe with Veining so that you can dig entire veins of ores at once.  There are many ways to automate resource collection, too.  Searching through JEI will reward you greatly.
+			</p>
+			<p><image src="gbook:giraffe200" tw="170" th="170"/></p>
+
+		</section>
+	</chapter>
+
+	<chapter id="getting_organised">
+		<section>
+
+			<title bold="true" scale="1.5">Getting Organised</title>
+			<p>
+				Now that you have started gathering resources, I bet it feels like the chest monsters are moving in.  Piles of boxes, chests, barrels and crates surround you on all sides, and are seemingly filled with a random assortment of your precious things, useful items and junk.
+			</p>
+
+			<p>
+				So that you can avoid your starring role on the next episode of Hoarders, it is time to get organised.  Thankfully, ZooKeepR includes a few ways to help you sort out your stash and move it to where it is needed.
+			</p>
+
+			<p align="center"><image src="gbook:flamingo150" tw="120" th="120"/></p>
+
+			<title bold="true" scale="1">Bigger Chest</title>
+			<p>
+				A multipage Chest is probably a great place to start.  They can hold  huge amount of items, and will link up with your Simple Storage Network.
+			</p>
+			<p> ________</p>
+			<p>
+				******NOTE: Do not click on your multipage chest with the Thermal Cresent Hammer.  This will erase the contents.******
+			</p>
+			<p>_________</p>
+			<p><image src="gbook:multipagechest" tw="125" th="125"/></p>
+
+		</section>
+
+		<section>
+
+			<p><image src="gbook:ssn" tw="125" th="100"/></p>
+			<title bold="true">Simple Storage Network</title>
+			<p>
+				A Simple Storage Network takes this organisation one step further. Placing a Storage Network Master and a Storage Network Controller, then connecting the Master with Storage Link Cables, and finally connecting the Simple Storage Remote to the Master, allows it to see into and access all inventories the cables are connected to. Import, Export and Processing Cables allow you to control what goes where and when.  It will recognise filing cabinets and nullifier.  A Nullifier will destroy any block or fluid placed, or piped into it. Garbage disposal! 
+			</p>
+
+			<p align="center">
+				<link href="https://www.youtube.com/watch?v=WFu830IUXE0">YouTube - Simple Storage Network Summed Up</link>
+			</p>
+
+			<p>
+				Item ducts move items, fluiducts move fluids (some can’t handle the heat) and fluxducts move flux (aka Energy).  Each of these ducts have multiple tiers, check out JEI and the tooltips for more information.  You can pipe items into and out of the enderchests from EnderStorage.  Enderchests with matching dye combinations on the top can also allow you to move items interdimensionally.
+			</p>
+
+			<p bold="true">Little tiles will <span underline="true">NOT</span> link with the Simple Storage Network.</p>
+
+			<p align="center"><image src="gbook:thermal" tw="120" th="120"/></p>
+			<p align="center"><image src="gbook:littletiles" tw="160" th="160"/></p>
+
+		</section>
+	</chapter>
+
+	<chapter id="animals">
+		<section>
+			<title align="center" scale="1.5">Animals</title>
+
+			<title bold="true" scale="1">The ZooKeepR Adoption Centre</title>
+			<p>
+				The Store has been setup to deliver animals, in morbs, upon purchase.  Craft the store and install it in an open space.  Your animals will be delivered in crates from the sky.  Have the money in your inventory when you want to buy.
+			</p>
+
+			<title bold="true" scale="1">Taming Animals</title>
+			<p>
+				Kibble is the base of all kibbles used to tame ZAWA animals! Depending on the trait of the animal, it may take more than one try. Use the animal data book to find out what kibble the animal you are trying to tame needs.
+			</p>
+			<p align="center"><image src="gbook:kibbleshort" tw="150" th="30"/></p>
+
+			<p>
+				Butterflies can be caught using Bug Nets and Bug Habitats. If you have an empty Bug Habitat in your inventory, the butterfly will automatically be placed in it when caught.
+			</p>
+			<p align="center"><image src="gbook:lionflamingo" tw="120" th="120"/></p>
+
+			
+			<title bold="true" scale="1">Controlling Mobs</title>
+			<p>
+				As well as morbs and monster balls for trapping and relocating animals and other mobs, there are a set of Control Wands.  These are craftable and the recipes can be found in JEI.
+			</p>
+			<p align="center"><image src="gbook:hippo200" tw="130" th="130"/></p>
+
+			<p>The <span bold="true">Wand of Ages</span> will prevent baby mobs from ever growing up!!</p>
+			<p>The <span bold="true">Wand of Following</span> will make a mob follow you like a pet.</p>
+			<p>The <span bold="true">Wand of Silence</span> will mute a mob for good - preventing it from making sounds.</p>
+			<p>The <span bold="true">Wand of Enfeeblement</span> will enchant a hostile mob to deal zero melee damage and reduce its follow range.</p>
+			<p>The <span bold="true">Wand of Pacification</span> will turn a hostile mob friendly <span italics="true">(will not attack you or other mobs).</span></p>
+			<p>The <span bold="true">Wand of Immolation</span> will grant fire resistance to a mob and set it on fire - permanently.</p>		
+
+			<p>
+				Wands will spawn naturally in various treasure chests as rare loot <span italics="true">(very rare in ordinary dungeon chests and less rare in Nether, Stronghold chests...)</span>
+			</p>
+
+			<p>
+				Feeding a baby animal a Poisonous Potato has a chance to poison it for a few seconds. A baby animal that has been poisoned by this method will never grow into an adult.
+			</p>
+			
+			<title bold="true" scale="1">Breeding Animals</title>
+			<p>
+				While the vanilla animals still breed the same way as they do in vanilla minecraft, the new animals introduce some unique methods of breeding.
+			</p>
+			<p align="center"><image src="gbook:parrot-eggs120" tw="120" th="120"/></p>
+
+			<title bold="true" scale="1">QUARK Parrot Eggs</title>
+			<p>	
+				Feeding a parrot Beetroot Seeds has a chance to make the parrot make an egg. After a few minutes, the parrot will pop out a Parrot Egg, which you throw like a normal egg to get a guaranteed parrot of the egg's color. The color of the egg that is produced depends on the color of the parrot laying it. Every parrot can lay every color, but it's much more likely you'll get an egg of the same color.
+			</p>
+
+		</section>
+
+		<section>
+
+			<title bold="true" scale="1">Familiar Fauna</title>
+			<p>Turkey - wheat, beetroot, pumpkin or melon seeds - gender specific breeding.</p>
+			<p>Deer - apples - gender specific breeding.</p>
+
+			<title bold="true" scale="1">Better Animals Plus</title>
+			<p>Goats - Wheat</p>
+			<p align="center"><image src="gbook:walrus150" tw="150" th="150"/></p>
+		
+		</section>
+		
+		<section>
+
+			<title bold="true" scale="1">Zoocraft Discoveries Breeding Foods</title>
+			<p>Anteater - Apple</p>
+			<p>Giraffe - Apple</p>
+			
+			<p>Gecko - Wheat seeds</p>
+
+			<p>Camel - Wheat</p>
+			<p>Capybara - Wheat</p>
+			<p>Chinchilla - Wheat</p>
+			<p>Gemsbok - Wheat</p>
+			<p>Hedgehog - Wheat</p>
+			<p>Porcupine - Wheat</p>
+
+			<p>Tapir - Carrot</p>
+
+			<p>Rhino - Grass bundle</p>
+
+			<p>Frog - Cannot be bred, use Frogspawn instead</p>
+
+
+			<title bold="true" scale="1">Zoo and Wild Animals</title>
+			<p>ZAWA animals use breeding vials.</p>
+			<p>Breeding vials are crafted using appropriate kibble and a bottle of water.</p>
+			<p>Exotic Birds lay eggs in nests and in the world.</p>
+
+		</section>
+		
+		<section>
+
+			<title bold="true" scale="1">Doggy Talents</title>
+			<p align="center"><image src="gbook:doggy" tw="90" th="90"/></p>
+
+			<p align="center"><link href="https://github.com/percivalalb/DoggyTalents/wiki">Doggy Talents Wiki</link></p>
+
+			<p>
+				Your Doggy is invincible, and will follow you around. Their behaviour can be controlled.  Click on your dog with a piece of wood and you will open a gui (window).
+			</p>
+
+			<p>
+				You can care for your dogs with beds, food bowls, and dog baths.
+			</p>
+
+			<p>
+				Your dog will require food and will whine when its food levels get below 20.  Food levels go up to 120.  Dogs can eat a variety of foods, depending on their Talents.  These Doggy Talent dogs can skill up in a variety of ways.  Dogs can play fetch. Ever wished your dog would fish for you, or could carry items?  
+			</p>
+
+			<p align="center"><image src="gbook:packpuppy-inventory" tw="90" th="90"/></p>
+			<p>Try clicking on your dog with a stick.</p>
+
+			<p align="center"><image src="gbook:doggytalents1" tw="90" th="90"/></p>
+			<p>This will open a GUI where you can customise your dogs appearance and talents.</p>
+			
+			<p align="center"><image src="gbook:doggytalents" tw="90" th="90"/></p>
+			<p>Further training points can be earned with treats.</p>
+
+			<p align="center"><image src="gbook:treatsshort" tw="125" th="25"/></p>
+
+		</section>
+	</chapter>
+
+	<chapter id="beyond">
+		<section>
+
+			<title bold="true" scale="1">Little Tiles</title>
+			<p>
+				This mod adds a set of tools that can be used to make custom doors, chests, ladders, chairs and beds out of regular blocks.  Basically, this mod allows you to build anything you want, and is a great way to add more detail to everything. You can hammer blocks into tiles which can be much smaller than an ordinary minecraft block. You can combine your tiles together to create doors, chairs, ladders, no-clip, storage and any kind of furniture structure. There are endless possibilities.  You should check out Mischief of Mice’s series exploring this mod, here: 
+			</p>
+			<p align="center">
+				<link href="https://www.youtube.com/playlist?list=PLQzDSnrhrcyyJ4DiirrFtGhyfd8ws-fpf">YouTube - Mischief Little Tiles Playlist</link>
+			</p>
+
+			<title bold="true" scale="1">Power</title>
+			<p>
+				In this pack, power comes from the Thermal Suite of Mods.  Start with a Steam Dynamo, fueled with coal or charcoal.  The dynamo will need to be fed water.  Eventually you can pipe this in from an Aqueous Accumulator or a Sink using Fluiducts.  In fact, ducts and servos are great for moving items, fluids and energy around for short distances.  Once you want to start moving things further, you may want to investigate the use of Ender Chests.  
+			</p>
+
+			<title bold="true" scale="1">Transferring Power</title>
+			<p>
+				Your power can be easily moved throughout the minecraft worlds, using the mod Flux Networks.  A controller, a Plug, and a Point is really all you need to do to get started.
+			</p>
+			
+			<p align="center">
+				<link href="https://www.youtube.com/watch?v=jO7w7K7bW0o">
+					YouTube - Flux Networks: Quick Start Guide!
+				</link>
+			</p>
+			<p align="center"><image src="gbook:flamingo" tw="120" th="120"/></p>
+			
+			<title bold="true" scale="1">Upgrading</title>
+			<p>
+				Most things in Thermal can be upgraded (using an upgrade Kit or Conversion Kit) to be faster, or more efficient.  Additionally many machines can be specialised with various upgrades to make them extra great at doing a specific task.  Check out the Augments in JEI.
+			</p>
+
+			<title bold="true" scale="1">Inventory</title>
+			<p>
+				Your personal inventory can be extended with the use of Satchels (again upgradable), which can be configured with whitelist and blacklist auto collection, filtering, simple compacting etc. 
+			</p>
+			<p align="center">
+				<link href="https://www.youtube.com/watch?v=nY_bza1gc5E">
+					YouTube - Vallen from Mischief of Mice talks about satchels!
+				</link>
+			</p>
+			<title bold="true" scale="1">Building Gadgets</title>
+			<p>
+				Sometimes, building large structures can be a little tedious, and take a lot of effort. Not all of us are great builders you know!  Dire's Building Gadgets aims to make building a little bit easier.
+			</p>
+			<p>
+				This mod adds 4 tools to the game, each designed for a different task, and all use a bit of power for each process it does.
+			</p>
+			<p>
+				The <span bold="true">Building Gadget</span> allows you to build structures using a set of different Building Modes.
+			</p>
+			<p>
+				The <span bold="true">Exchanging Gadget</span> provides basic exchanging abilities using a set of different Exchanging Modes.
+			</p>
+			<p>
+				The <span bold="true">Copy Paste Gadget</span> allows you to select a large radius to copy and paste in a different location.
+			</p>
+			<p>
+				The <span bold="true">Destruction Gadget</span> allows you to void a large area.
+			</p>
+
+			<p>
+				The radial menu can be brought up with a key (remember those keybinds?) and will allow you to customise how these tools will work.  
+			</p>
+			<p>Check out the Wiki for this mod if you want further information:</p>
+			<p><link href="https://github.com/Direwolf20-MC/BuildingGadgets/wiki">Building Gadgets Wiki</link></p>
+			<p align="center"><image src="gbook:gadget" tw="90" th="90"/></p>
+
+			<p align="center"><image src="gbook:lionflamingo" tw="150" th="150"/></p>
+
+		</section>
+
+		<section>
+
+			<title bold="true" scale="1">Custom Recipes</title>
+			<p>We have added a small selection of custom recipes to enhance the experience of building your zoo.  These include:
+			</p>
+			<p bold="true">This Guidebook</p>
+			<small_recipe>
+				<stack item="minecraft:book"/>
+				<stack item="minecraft:book"/>
+				<space/>
+				<space/>
+				<stack item="gbook:guidebook"/>
+			</small_recipe>
+
+			<p bold="true">Animal Adoption Centre</p>
+			<p> This store allows you to purchase all the animals available in the ZooKeepR pack</p>
+			<big_recipe>
+				<space/>				
+				<stack item="zawa:barrel"/>
+				<space/>				
+				<stack item="minecraft:diamond"/>
+				<stack item="thermalexpansion:frame"/>
+				<stack item="minecraft:diamond"/>
+				<stack item="minecraft:heavy_weighted_pressure_plate"/>
+				<stack item="minecraft:wool"/>
+				<stack item="minecraft:heavy_weighted_pressure_plate"/>
+				<stack item="delivery:store"/>
+			</big_recipe>
+
+			<p bold="true">Nametags</p>
+			<big_recipe>
+				<space/>			
+				<space/>
+				<space/>				
+				<stack item="minecraft:string"/>
+				<stack item="minecraft:iron_nugget"/>
+				<stack item="minecraft:paper"/>
+				<space/>			
+				<space/>
+				<space/>
+				<stack item="minecraft:name_tag"/>
+			</big_recipe>
+
+			<p bold="true">Fur/Hide to Leather</p>
+			<p>You can use a variety of axes and tools with different hides and furs to make leather.</p>
+
+			<p bold="true">Wool to String</p>
+			<p>Like Leather, you can use a variety of shears with all wool variations to make string.</p>
+
+			<p bold="true">Enchanted Books</p>
+			<p>You can make plenty of enhcanted books including Mending, Unbreaking, Veining and Lumbering.	</p>
+			<p><image src="gbook:mending" tw="200" th="79"/></p>
+
+		</section>
+	</chapter>
+
+	<chapter id="tips">
+		<section>
+
+			<title bold="true" scale="1.5">Tips</title>
+
+			<p>Mobs can be picked up using a cyclic Monster Ball - throw it at a mob.</p>
+			<p>Heart container items increase your health permanently.</p>
+			<p>Crouch Right Click with a Mending tool will use your accumulated xp to repair that specific tool.</p>
+			<p>The Currency mod includes an exchange machine and a vending machine to sell items to other players.</p>
+			<p>The coins and notes can be crafted into different denominations.</p>
+			<p>Ore Excavation is not in the pack, but Veining and Lumbering Enchantments are.</p>
+			<p>Many Enchanted books can be crafted.</p>
+			<p align="center"><image src="gbook:lionflamingo" tw="90" th="90"/></p>
+			<p>Eggshells work as bone meal, sometimes.</p>
+			<p>Dungeon finder works like the ender eye but finds the closest spawner.</p>
+			<p>Ore will spawn in the nether and the end.</p>
+			<p>The Uncrafter will break most crafted items into its base ingredients.</p>
+			<p>The cyclic Water Candle acts like a mob spawner.</p>
+			<p>Look up or down on a ladder to climb quickly.</p>
+			<p align="center"><image src="gbook:giraffe200" tw="90" th="90"/></p>
+			<p>Ender pearls work on horseback, bringing the horse with you.</p>
+			<p>There are new villagers in the world, and your familiar friends have some new things to trade.  Don't forget to check them out.</p>
+			<p>Challenger mobs are harder to defeat, but drop better loot.</p>
+			<p>Nature's compass will help you to find a specific biome.</p>
+			<p>No mobs drop experience when killed.</p>
+			<p>You can push mob spawners with pistons.</p>
+			<p align="center"><image src="gbook:flamingo" tw="90" th="90"/></p>
+			<p>Oreberries grow in the dark.  Essence-berries will grow where there is light.</p>
+			<p>The Elytra can be dyed with any of the 16 dyes. You can dye it as many times as you want.</p>
+			<p>Pirate ships will spawn in Ocean biomes. Pirate mobs don't despawn.</p>
+			<p>Fishing will net you some valuable results!</p>
+
+		</section>
+	</chapter>
+
+	<chapter id="credits">
+		<section>
+
+			<title bold="true" scale="1.5">Credits</title>
+			<p>Without the invaluable help of the following people, ZooKeepR could not exist.</p>
+			<p>GentlemanGnu</p>
+			<p>Hayz</p>
+			<p>Ravin</p>
+			<p>Troubador</p>
+			<p>Glowlee (Artwork)</p>
+			<p>Scooby</p>
+			<p>Abigai1</p>
+			<p>Dreeadnought</p>
+			<p>Nooby</p>
+			<p>CSaar</p>
+			<p>Sugar0Addict</p>
+			<p>Evorsio</p>
+			<p align="center"><image src="gbook:wings100" tw="100" th="100"/></p>
+
+		</section>
+	</chapter>
+
+</book>

@@ -1,0 +1,38 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": -1,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"nt:blossom_forest", 
+		"nt:cliffs", 
+		"nt:cold_blue_taiga", 
+		"minecraft:mutated_taiga_cold", 
+		"nt:hills", 
+		"nt:mega_maple_forest",
+		"minecraft:mutated_desert"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}

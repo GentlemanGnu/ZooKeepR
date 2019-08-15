@@ -1,0 +1,156 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/modpackTitle.png",
+            "posX" : -75,
+            "posY" : -5,
+            "width" : 150,
+            "height" : 100,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":{  
+        "singleplayer":{  
+            "text":"menu.singleplayer",
+            "posX":-100,
+            "posY":-30,
+            "width":200,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":12434877,
+            "texture":"custommainmenu:textures/gui/button.png",
+            "alignment":"center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+
+        "multiplayer":{  
+            "text":"menu.multiplayer",
+            "posX":-100,
+            "posY":-10,
+            "width":200,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":12434877,
+            "texture":"custommainmenu:textures/gui/button.png",
+            "alignment":"center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        "options":{  
+            "text":"menu.options",
+            "posX":-100,
+            "posY":10,
+            "width":200,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":12434877,
+            "texture":"custommainmenu:textures/gui/button.png",
+            "alignment":"center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+
+        "mods":{  
+            "text":"Mods",
+            "posX":-100,
+            "posY":30,
+            "width":200,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":12434877,
+            "texture":"custommainmenu:textures/gui/button.png",
+            "alignment":"center",
+            "action" :
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "quit":{  
+            "text":"menu.quit",
+            "posX":-100,
+            "posY":50,
+            "width":200,
+            "height":20,
+            "imageWidth":200,
+            "imageHeight":20,
+            "normalTextColor":16777215,
+            "hoverTextColor":16711680,
+            "texture":"custommainmenu:textures/gui/button.png",
+            "alignment":"center",
+            "action" :
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 100,
+            "posY" : 60,
+            "color" : 16037892,
+            "alignment" : "top_center",
+            "file" : "custommainmenu:splashes.txt"
+
+        },
+
+            "background" :
+            {
+                "image" : "custommainmenu:textures/gui/modpackBackground.png",
+                "mode" : "fill"
+            } 
+        }
+
+}

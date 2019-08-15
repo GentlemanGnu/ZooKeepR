@@ -1,0 +1,18 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"cleric",
+
+	Offers:{
+		Recipes:[
+            {action:"clear"},
+			{action:"add", buy:{id:"minecraft:rotten_flesh",Count:{min:36,max:40}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:gold_ingot",Count:{min:8,max:10}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:redstone",Count:{min:10,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:dye", Damage:4, Count:{min:5,max:7}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1},sell:{id:"minecraft:glowstone",Count:{min:1,max:3}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:3,max:11}},sell:{id:"minecraft:experience_bottle",Count:1}, CareerLevel:1}
+		]
+	}
+
+}

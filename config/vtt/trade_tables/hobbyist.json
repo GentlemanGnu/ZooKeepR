@@ -1,0 +1,22 @@
+{ 
+	Profession:"vtt:tinkerer", 
+	Career:"hobbyist",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+            {action:"add", buy:{id:"minecraft:dirt",Count:{min:45,max:64}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"birdsfoods:cheese", Count:{min:16,max:32}}, sell:{id:"modcurrency:coin", Damage:4, Count:3}, CareerLevel:1},
+			{action:"add", buy:{id:"simplystrawberries:strawberryitem", Count:{min:16,max:32}}, sell:{id:"modcurrency:coin", Damage:4, Count:3}, CareerLevel:1},
+			{action:"add", buy:{id:"waterstrainer:worm", Count:{min:20,max:30}}, sell:{id:"modcurrency:coin", Damage:4, Count:2}, CareerLevel:1},
+
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64},sell:{id:"oreberries:essence_oreberry_bush",Count:{min:1,max:3}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:60},sell:{id:"waystones:warp_stone",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:12}},sell:{id:"minecraft:sponge",Count:{min:6,max:8}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:15},sell:{id:"torchmaster:dread_lamp",Count:1}, CareerLevel:1},			
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:30},sell:{id:"torchmaster:feral_flare_lantern",Count:1}, CareerLevel:1}
+		]
+	}
+
+}

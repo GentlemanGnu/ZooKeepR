@@ -1,0 +1,57 @@
+{ 
+	Profession: "minecraft:librarian", 
+	Career:"cartographer",
+	
+	Offers:{Recipes:
+		[
+
+			/*
+				Buying
+				------
+
+				- minecraft:compass Count 2-3 for 24
+				- minecraft:paper Count 39-42 for 5
+				- bibliocraft:compass Count 2-3 for 36-40
+
+				Selling
+				-------
+				
+				- zawa:exploration_guide Count 1 for 30
+				- birdsfoods:veggie_taco Count 2-3 for 5
+				- minecraft:item_frame Count 8-10 for 18-24
+				- quark:glass_item_frame Count 8-10 for 26-30
+				- minecraft:map Count 5-7 for 35-40
+				- quark:archeologist_hat Count 1 for 24-27
+				- zawa:cart Count 1 for 35
+				- chisel:obsidian Damage 9 Count 1 for 20
+				- chisel:obsidian Damage 8 Count 1 for 20
+				- zawa:golden_barrel_cactus Count 2-3 for 17-20
+				- plants2:nether_harvest Damage 2 Count 2-3 for 15
+				- plants2:aphrireroot Count 1 for 30
+				- biomepainttools:biome_pencil Count 1 for 60
+			*/
+
+			{action:"clear"},
+
+			//Buy actions
+			{action:"add",buy:{id:"minecraft:compass",Count:{min:2,max:3}},sell:{id:"modcurrency:coin",Damage:4,Count:24},CareerLevel:1},
+			{action:"add",buy:{id:"minecraft:paper",Count:{min:39,max:42}},sell:{id:"modcurrency:coin",Damage:4,Count:5},CareerLevel:1},
+			{action:"add",buy:{id:"bibliocraft:compass", Count:{min:2,max:3}},sell:{id:"modcurrency:coin",Damage:4,Count:{min:36,max:40}},CareerLevel:1},
+
+
+			//Sell Actions
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:30},sell:{id:"zawa:exploration_guide",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:5},sell:{id:"birdsfoods:veggie_taco", Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:18,max:24}},sell:{id:"minecraft:item_frame",Count:{min:8,max:10}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:26,max:30}},sell:{id:"quark:glass_item_frame", Count:{min:8,max:10}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:35,max:40}},sell:{id:"minecraft:map",Count:{min:5,max:7}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:35},sell:{id:"zawa:cart",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:20},sell:{id:"chisel:obsidian", Damage:9, Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:20},sell:{id:"chisel:obsidian", Damage:8, Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:17,max:20}},sell:{id:"zawa:golden_barrel_cactus", Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:15},sell:{id:"plants2:nether_harvest", Damage:2, Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:30},sell:{id:"plants2:aphrireroot",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:60},sell:{id:"biomepainttools:biome_pencil",Count:1},CareerLevel:1}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": -1,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"nt:estuary", 
+		"nt:lake", 
+		"nt:clayland",
+		"nt:green_mixed_forest_hills",
+		"nt:icy_tundra",
+		"nt:meadow",
+		"nt:moorland",
+		"nt:rocky_taiga"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}

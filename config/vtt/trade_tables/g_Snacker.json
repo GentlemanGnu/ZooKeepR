@@ -1,0 +1,24 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Snacker",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:dandelion_salad",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"cfm:item_kebab_cooked",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"cfm:item_sausage_cooked",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:chili_cheese_fries",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:baked_apple",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:pumpkin_bread",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:crisps",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:fruit_salad",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:apple_juice",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1}
+
+                    ]
+	        }
+	
+	}
+	
+	

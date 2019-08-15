@@ -1,0 +1,35 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_frogman",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"cyclicmagic:magic_net", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:waterlily", Count:{min:10,max:20}}, sell:{id:"modcurrency:coin", Damage:4, Count:25}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:river_stone", Count:{min:20,max:30}}, sell:{id:"modcurrency:coin", Damage:4, Count:10}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:flower_pot", Count:10}, sell:{id:"modcurrency:coin", Damage:4, Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:crocodile_leather", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:3}, CareerLevel:1},
+			{action:"add", buy:{id:"cfm:item_log", Count:{min:16,max:40}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:2}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:crocodile_tooth", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:2}}, CareerLevel:1},
+			{action:"add", buy:{id:"aquaculture:food", Damage:1, Count:16}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:5}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:reptile_hide", Count:19}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:mossy_cobblestone", Count:{min:10,max:20}}, sell:{id:"modcurrency:coin", Damage:4, Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:cetacean_meat_raw", Count:15}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:10,max:20}}, CareerLevel:1},
+			{action:"add", buy:{id:"zawa:toxin_sac", Count:32}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:10,max:20}}, CareerLevel:1},
+			{action:"add", buy:{id:"thermalfoundation:geode", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"zoocraftdiscoveries:frogspawn", Count:20}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:32}}, CareerLevel:1},
+			{action:"add", buy:{id:"quark:trowel", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:5}, CareerLevel:1},
+
+
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cyclicmagic:magic_net",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:45}, sell:{id:"minecraft:waterlily",Count:{min:20,max:30}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:25}}, sell:{id:"zawa:bird_meat", Count:{min:5,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:8}}, sell:{id:"aquaculture:food", Damage:1, Count:{min:1,max:3}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:25}}, sell:{id:"zawa:rat_raw", Count:{min:5,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:25}}, sell:{id:"zawa:large_meat_raw", Count:{min:2,max:8}}, CareerLevel:1}
+
+		]
+
+}
+}

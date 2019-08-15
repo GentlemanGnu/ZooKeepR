@@ -1,0 +1,26 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_ornithologist",
+
+	Offers:{
+		Recipes:[
+		
+            {action:"add", buy:{id:"cyclicmagic:magic_net",Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+            {action:"add", buy:{id:"birdsfoods:sunflower_seeds", Count:{min:8,max:24}}, sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"cfm:bird_bath", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:9}}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"exoticbirds:nest", Count:16}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:12}}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"minecraft:egg", Count:{min:40,max:60}}, sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"minecraft:wheat_seeds", Count:{min:60,max:64}}, sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:2, Chance: 0.25},
+            {action:"add", buy:{id:"exoticbirds:egg_incubator", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:20,max:36}}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"exoticbirds:egg_sorter", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:20,max:36}}, CareerLevel:1},
+            {action:"add", buy:{id:"exoticbirds:mystery_egg", Count:32}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:1,max:16}}, CareerLevel:1},
+
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cyclicmagic:magic_net", Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:2}, sell:{id:"minecraft:egg", Count:{min:40,max:60}}, CareerLevel:1, Chance: 0.25},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:1}, sell:{id:"minecraft:wheat_seeds",Count:{min:20,max:30}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:15}}, sell:{id:"zawa:bird_perch", Count:1}, CareerLevel:1, Chance: 0.25}
+
+		]
+
+}
+}

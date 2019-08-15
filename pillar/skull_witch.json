@@ -1,0 +1,39 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": ["minecraft:desert", 
+		"nt:sahel", 
+		"nt:outback", 
+		"nt:sandy_scrubland", 
+		"nt:sand_dune",
+		"nt:hot_desert", 
+		"minecraft:mushroom_island", 
+		"nt:sandy_scrubland"
+	],
+
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:sand",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}

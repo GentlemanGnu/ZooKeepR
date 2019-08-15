@@ -1,0 +1,35 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 0,
+	"maxY": 250,
+	"offsetX": 0,
+	"offsetY": -2,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [ 
+		"nt:heath",
+		"nt:scrubland",
+		"nt:lake",
+		"nt:lowland"
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:netherrack",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 150
+
+}

@@ -1,0 +1,15 @@
+{ 
+	Profession: "minecraft:farmer", 
+	Career:"fisherman",
+	
+	Offers:
+	{Recipes:[{action:"clear"},
+		{action:"add", buy:{id:"minecraft:fish",Count:6},buyB:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:cooked_fish",Count:6},CareerLevel:1},
+		{action:"add",buy:{id:"minecraft:string",Count:{min:15,max:20}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"minecraft:coal",Count:{min:16,max:24}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"birdsfoods:veggie_taco_supreme",Count:{min:5,max:9}},sell:{id:"modcurrency:coin",Damage:4,Count:5},CareerLevel:1},
+		
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:15,max:19}},sell:{id:"waterstrainer:worm",Count:64},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:7,max:8}},sell:{id:"minecraft:fishing_rod",Count:1,tag:{ench:"random"}},CareerLevel:1}]}
+	}
+	

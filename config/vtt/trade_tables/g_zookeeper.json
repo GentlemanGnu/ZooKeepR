@@ -1,0 +1,35 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_zookeeper",
+
+	Offers:{
+		Recipes:[
+		
+        {action:"add", buy:{id:"cyclicmagic:magic_net", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+		{action:"add", buy:{id:"exoticbirds:bird_book", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:3}, CareerLevel:1},
+		{action:"add", buy:{id:"zawa:tire", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:15}}, CareerLevel:1},
+		{action:"add", buy:{id:"zawa:wired_fence", Count:10}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:20}}, CareerLevel:1},
+		{action:"add", buy:{id:"zawa:wired_grate", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:5}, CareerLevel:1},
+		{action:"add", buy:{id:"micwands:wandfollow", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:15}, CareerLevel:1},
+
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:10}, sell:{id:"zawa:bench", Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"zawa:exhibit_glass", Count:64}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"zawa:mixed_stone_mossy", Count:64}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"zawa:mixed_stone", Count:64}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"zawa:paving_stone", Count:64}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"zawa:river_stone", Count:64}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cfm:white_fence", Count:{min:8,max:16}}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:5,max:10}}, sell:{id:"cfm:white_gate", Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:5}, sell:{id:"zawa:bar_fence", Count:{min:8,max:16}}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:5}, sell:{id:"zawa:bar_grate", Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:22}, sell:{id:"zawa:steel_bars", Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:22}, sell:{id:"zawa:steel_grate", Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cyclicmagic:magic_net",Count:1}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:8}, sell:{id:"cfm:plate", Count:{min:1,max:3}}, CareerLevel:1},
+		{action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:12}, sell:{id:"cfm:cookie_jar", Count:1}, CareerLevel:1}
+
+
+	]
+
+}
+}

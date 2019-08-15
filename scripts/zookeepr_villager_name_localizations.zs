@@ -1,0 +1,18 @@
+game.setLocalization("entity.Villager.g_frogman", "Herpetologist");
+game.setLocalization("entity.Villager.g_exhibit_keeper", "Exhibit Keeper");
+game.setLocalization("entity.Villager.g_groundskeeper", "Groundskeeper");
+game.setLocalization("entity.Villager.g_ornithologist", "Ornithologist");
+game.setLocalization("entity.Villager.g_vet", "Veterinarian");
+game.setLocalization("entity.Villager.g_mailman", "Mailman");
+game.setLocalization("entity.Villager.g_entomologist", "Entomologist");
+game.setLocalization("entity.Villager.g_zookeeper", "Zookeeper");
+game.setLocalization("entity.Villager.hobbyist", "Hobbyist");
+game.setLocalization("entity.Villager.g_Juicer", "Juicer");
+game.setLocalization("entity.Villager.g_Griller", "Griller");
+game.setLocalization("entity.Villager.g_Jeweller", "Jeweller");
+game.setLocalization("entity.Villager.g_Snacker", "Snacker");
+game.setLocalization("entity.Villager.g_Baker", "Baker");
+game.setLocalization("entity.Villager.g_Waffler", "Waffler");
+game.setLocalization("entity.Villager.g_IceCreamMan", "IceCream Man");
+game.setLocalization("entity.Villager.g_Gifter", "Gifter");
+game.setLocalization("entity.Villager.g_Grinder", "Grinder");

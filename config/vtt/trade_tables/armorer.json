@@ -1,0 +1,22 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"armor",
+	
+	Offers:{Recipes:[{action:"clear"},
+	{action:"add",buy:{id:"minecraft:coal",Count:{min:16,max:24}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:iron_ingot",Count:{min:7,max:9}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:diamond",Count:{min:3,max:4}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:25,max:32}},sell:{id:"minecraft:diamond_chestplate",Count:1,tag:{ench:"random"}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:5,max:7}},sell:{id:"minecraft:chainmail_boots",Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:9,max:11}},sell:{id:"minecraft:chainmail_leggings",Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:5,max:7}},sell:{id:"minecraft:chainmail_helmet",Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:11,max:15}},sell:{id:"minecraft:chainmail_chestplate",Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:10,max:12}},sell:{id:"minecraft:iron_helmet",Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:10,max:14}},sell:{id:"minecraft:iron_chestplate",Count:1},CareerLevel:1}
+
+]
+	}
+	
+	}
+	

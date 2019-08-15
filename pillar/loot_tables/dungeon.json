@@ -1,0 +1,119 @@
+{
+    "pools": [
+        {"rolls": {"min": 0, "max": 3},
+            "entries": [
+                {"type": "item", "name": "aquaculture:admin_fishing_rod", "weight": 1},
+                {"type": "item", "name": "minecraft:elytra", "weight": 2},
+                {"type": "item", "name": "plants2:cataplant",  "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 20},
+                {"type": "item", "name": "minecraft:name_tag", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 30},
+                {"type": "item", "name": "minecraft:book", "weight": 30, "functions": [{"function": "enchant_randomly"}]},
+                {"type": "item", "name": "cyclicmagic:sprout_seed", "weight": 5},
+                {"type": "item", "name": "plants2:dark_crystal_pickaxe", "weight": 5},
+                {"type": "item", "name": "minecraft:wheat_seeds", "weight": 5},
+                {"type": "item", "name": "minecraft:coal", "weight": 5},
+                {"type": "item", "name": "plants2:crystal_sapling", "weight": 5},
+                {"type": "item", "name": "fluxnetworks:fluxconfigurator", "weight": 8},
+                {"type": "item", "name": "birdsfoods:herbal_tea", "weight": 50},
+                {"type": "item","name": "waterstrainer:super_worm", "weight": 2},
+                {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 7}],"weight": 3},
+                {"type": "empty", "weight": 15}]
+        },
+
+        {"rolls": {"min": 2, "max": 4},
+            "entries": [
+                {"type": "item", "name": "birdsfoods:herbal_tea", "weight": 5},
+                {"type": "item", "name": "zawa:animal_net", "weight": 5},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "minecraft:ghast_tear", "functions": [{"function": "set_count", "count": 1}], "weight": 1},
+                {"type": "item", "name": "minecraft:diamond", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},                
+                {"type": "item", "name": "plants2:generic", "functions": [{"function": "set_data", "data": 13}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "minecraft:gold_ingot", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 5},
+                {"type": "item", "name": "birdsfoods:chocolate_bar", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:cheesy_veggie_taco", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:chili_cheese_fries", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:ice_cream_bacone", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:veg_pizza", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:berry_waffles", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},
+                {"type": "item", "name": "birdsfoods:astronaut_ice_cream", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1}]
+        },
+               
+        {"rolls": {"min": 0, "max": 2},
+            "entries": [
+                {"type": "item", "name": "cyclicmagic:charm_air", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:charm_antidote", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:charm_fire", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:charm_speed", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:charm_water", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:exp_pylon", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:horse_upgrade_variant", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:magic_net", "weight": 20},
+                {"type": "item", "name": "cyclicmagic:water_candle", "weight": 2},
+                {"type": "item", "name": "doggytalents:breeding_bone", "weight": 2},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "doggytalents:dire_treat", "weight": 2},
+                {"type": "item", "name": "doggytalents:super_treat", "weight": 2},
+                {"type": "item", "name": "doggytalents:master_treat", "weight": 2},
+                {"type": "item", "name": "doggytalents:sunglasses", "weight": 2},
+                {"type": "item", "name": "doggytalents:throw_bone", "weight": 2},
+                {"type": "item", "name": "doggytalents:training_treat", "weight": 2},
+                {"type": "item", "name": "micwands:wandfollow", "weight": 2},
+                {"type": "item", "name": "micwands:wandpacify", "weight": 2},
+                {"type": "item", "name": "minecraft:blaze_rod", "weight": 2},
+                {"type": "item", "name": "minecraft:experience_bottle", "weight": 2},
+                {"type": "item", "name": "minecraft:skull", "weight": 2},
+                {"type": "item", "name": "oreberries:gold_oreberry_bush", "weight": 2},
+                {"type": "item", "name": "oreberries:essence_oreberry_bush", "weight": 2},
+                {"type": "item", "name": "thermalfoundation:upgrade", "functions": [{"function": "set_data", "data": 34}, {"function": "set_count", "count": 1}],"weight": 2},
+                {"type": "item", "name": "thermalfoundation:upgrade", "functions": [{"function": "set_data", "data": 35}, {"function": "set_count", "count": 1}],"weight": 2},
+                {"type": "item", "name": "modcurrency:banknote", "functions": [{"function": "set_data", "data": 3}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "biomepainttools:biome_pencil", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:horse_upgrade_type", "weight": 2},
+                {"type": "item", "name": "cyclicmagic:heart_food", "weight": 2},
+                {"type": "empty", "weight": 50}
+                        ]
+        },
+               
+        {"rolls": 3,
+            "entries": [
+                {"type": "item","name": "birdsfoods:raw_bacon", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:feather", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "waterstrainer:worm", "functions": [{"function": "set_count", "count":{"min": 1, "max": 8}}], "weight": 2},
+                {"type": "item","name": "simplystrawberries:strawberryseeditem", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "minecraft:stick", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:glass_bottle", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "birdsfoods:chocolate_milk", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "familiarfauna:bug_habitat", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:preservation_chamber", "weight": 2},
+                {"type": "item","name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item","name": "cookingforblockheads:fruit_basket", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:ice_unit", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:heating_unit", "weight": 2},
+                {"type": "item","name": "minecraft:emerald", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:ender_pearl", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "fluxnetworks:flux", "functions": [{"function": "set_count", "count":{"min": 9, "max": 64}}], "weight": 2},
+                {"type": "item","name": "doggytalents:dog_bath", "weight": 2},
+                {"type": "item","name": "birdsfoods:yogurt", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2}
+                        ]
+        },
+
+        {"rolls": 1,
+            "entries": [
+                {"type": "item","name": "nt:shrub_sapling_acacia", "weight": 2},
+                {"type": "item","name": "nt:sapling_tallspruce", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_birch", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_bluespruce", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_cherrywhite", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_coniferorange", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_coniferyellow", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_darkoak", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_jacaranda", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_jungle", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_maple", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_oak", "weight": 2},
+                {"type": "item","name": "nt:shrub_sapling_redoak", "weight": 2},
+                {"type": "item","name": "nt:whitemyrtle_sapling", "weight": 2}
+
+            ]
+        }
+    ]
+}

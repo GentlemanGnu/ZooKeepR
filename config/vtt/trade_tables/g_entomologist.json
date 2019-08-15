@@ -1,0 +1,30 @@
+{ 
+	Profession:"vtt:zookeeper", 
+	Career:"g_entomologist",
+
+	Offers:{
+		Recipes:[
+		
+            {action:"add", buy:{id:"cyclicmagic:magic_net", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:20}, CareerLevel:1},
+            {action:"add", buy:{id:"familiarfauna:bug_net", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:30}}, CareerLevel:1},
+            {action:"add", buy:{id:"familiarfauna:bug_habitat", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:30}}, CareerLevel:1},
+            {action:"add", buy:{id:"familiarfauna:snail_shell",Count:5}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:4}}, CareerLevel:1},
+            {action:"add", buy:{id:"wings:monarch_butterfly_wings", Count:1}, sell:{id:"modcurrency:coin", Damage:4, Count:64}, CareerLevel:1},
+            {action:"add", buy:{id:"zawa:toxin_sac", Count:{min:10,max:19}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:15}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:poisonous_potato", Count:{min:15,max:19}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:double_plant", Damage:2, Count:{min:32,max:50}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:18}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:tallgrass", Damage:2, Count:{min:15,max:25}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, CareerLevel:1},
+            {action:"add", buy:{id:"minecraft:rotten_flesh", Count:{min:32,max:64}}, sell:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, CareerLevel:1},
+
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:30}}, sell:{id:"familiarfauna:bug_net", Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:30}}, sell:{id:"familiarfauna:bug_habitat", Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:2,max:4}}, sell:{id:"familiarfauna:snail_shell",Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:64}, sell:{id:"wings:monarch_butterfly_wings", Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:20}, sell:{id:"cyclicmagic:magic_net",Count:1}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:15,max:19}}, sell:{id:"simplystrawberries:strawberryitem", Count:{min:8,max:16}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:10,max:15}}, sell:{id:"minecraft:rotten_flesh", Count:{min:8,max:32}}, CareerLevel:1},
+            {action:"add", buy:{id:"modcurrency:coin", Damage:4, Count:{min:8,max:15}}, sell:{id:"composter:compost_bin",Count:1}, CareerLevel:1}
+		]
+
+}
+}

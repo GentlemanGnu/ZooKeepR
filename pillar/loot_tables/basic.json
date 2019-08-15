@@ -1,0 +1,41 @@
+{
+    "pools": [
+        {"rolls": {"min": 3, "max": 6},
+            "entries": [
+                {"type": "item", "name": "minecraft:golden_apple", "weight": 20},
+                {"type": "item", "name": "minecraft:emerald", "weight": 20},
+                {"type": "item", "name": "minecraft:ender_pearl",  "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 20},
+                {"type": "item","name": "minecraft:name_tag", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 30},
+                {"type": "item", "name": "minecraft:book", "weight": 10, "functions": [{"function": "enchant_randomly"}]},
+                {"type": "item","name": "cyclicmagic:sprout_seed", "weight": 5},
+                {"type": "item","name": "armorplus:lava_crystal", "weight": 5},
+                {"type": "item","name": "plants2:crystal_sapling", "weight": 5},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item","name": "minecraft:slime_ball", "weight": 5},
+                {"type": "item","name": "minecraft:quartz", "weight": 5},
+                {"type": "item","name": "cfm:item_soap", "weight": 5},
+                {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 5}],"weight": 5},
+                {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 4}],"weight": 5},
+                {"type": "item", "name": "aquaculture:loot", "functions": [{"function": "set_data", "data": 7}],"weight": 1}]
+        },
+
+        {"rolls": 2,
+            "entries": [
+                {"type": "item","name": "birdsfoods:jam", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:feather", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "waterstrainer:worm", "functions": [{"function": "set_count", "count":{"min": 1, "max": 8}}], "weight": 2},
+                {"type": "item","name": "simplystrawberries:strawberryseeditem", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "minecraft:stick", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:glass_bottle", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "birdsfoods:chocolate_milk", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "birdsfoods:roast_beets", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "birdsfoods:yogurt", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:slime_ball", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item", "name": "cyclicmagic:heart_food", "weight": 2},
+                {"type": "item", "name": "thermalfoundation:material", "functions": [{"function": "set_data", "data": 2048}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "thermalfoundation:material", "functions": [{"function": "set_data", "data": 2050}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "thermalfoundation:material", "functions": [{"function": "set_data", "data": 2052}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "minecraft:torch", "functions": [{"function": "set_count", "count": {"min": 1, "max": 8}}], "weight": 8}]
+        }
+    ]
+}

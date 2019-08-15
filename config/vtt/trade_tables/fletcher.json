@@ -1,0 +1,14 @@
+{ 
+	Profession: "minecraft:farmer", 
+	Career:"fletcher",
+	
+	Offers:
+	{Recipes:
+	[{action:"clear"},
+	{action:"add",buy:{id:"minecraft:string",Count:{min:15,max:20}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:arrow",Count:{min:8,max:12}},CareerLevel:1},
+	{action:"add",buy:{id:"minecraft:gravel",Count:10},buyB:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"minecraft:flint",Count:{min:6,max:10}},CareerLevel:1},
+	{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:7,max:8}},sell:{id:"minecraft:bow",Count:1},CareerLevel:1}
+	]
+	}
+	}

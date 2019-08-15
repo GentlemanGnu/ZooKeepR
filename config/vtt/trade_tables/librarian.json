@@ -1,0 +1,70 @@
+{ 
+	Profession: "minecraft:librarian", 
+	Career:"librarian",
+	
+	Offers:{Recipes:
+		[
+
+			/*
+				
+				Buying
+				------
+
+				- minecraft:bookshelf Count 2-3 for 30
+				- minecraft:book Count 4-5 for 20
+				- minecraft:writable_book Count 4-5 for 40
+
+				Selling
+				-------
+
+				- minecraft:name_tag Count 7-10 for 3-4
+
+				Enchanted Books
+
+
+
+				Bibliocraft items
+				
+				- bibliocraft:biblioglasses Damage: 0 Count 1 for 14-17
+				- bibliocraft:bookcase Damage: 0-6 Count 3-4 for 24
+				- bibliocraft:shelf Damage: 0-6 Count 3-4 for 20
+				- bibliocraft:lampgold Damage: 7 Count 2-3 for 32
+				- bibliocraft:lampiron Damage: 1 Count 2-3 for 16
+				- bibliocraft:fancysign Damage: 0-6 Count 4-6 for 30
+				- bibliocraft:label Damage: 0-6 Count 4-6 for 20
+				- bibliocraft:desk Damage: 0-6 Count 1 for 20
+				- bibliocraft:case Damage: 0-6 Count 1 for 32
+				- bibliocraft:typewriter Damage: 3 Count 1 for 42
+				- bibliocraft:bell Count: 1 for 5
+				- bibliocraft:typesettingtable Count: 1 for 64
+				- bibliocraft:printingpress Count 1
+			*/
+			
+			{action:"clear"},
+
+			//Buy actions
+			{action:"add",buy:{id:"minecraft:bookshelf",Count:{min:2,max:3}},sell:{id:"modcurrency:coin",Damage:4,Count:12},CareerLevel:1},
+			{action:"add",buy:{id:"minecraft:book",Count:{min:4,max:5}},sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"minecraft:writable_book", Count:1},sell:{id:"modcurrency:coin",Damage:4,Count:2},CareerLevel:1},
+
+
+			//Sell Actions
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:3,max:4}},sell:{id:"minecraft:name_tag",Count:{min:7,max:10}},CareerLevel:1},
+
+			//Sell Actions - Bibliocraft
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:{min:14,max:17}},sell:{id:"bibliocraft:biblioglasses",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:24},sell:{id:"bibliocraft:bookcase", Damage:0, Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:20},sell:{id:"bibliocraft:shelf",Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:32},sell:{id:"bibliocraft:lampgold", Damage:7, Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:16},sell:{id:"bibliocraft:lampiron",Count:{min:2,max:3}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:30},sell:{id:"bibliocraft:fancysign",Count:{min:4,max:6}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:20},sell:{id:"bibliocraft:label",Count:{min:4,max:6}},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:20},sell:{id:"bibliocraft:desk",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:32},sell:{id:"bibliocraft:case",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:42},sell:{id:"bibliocraft:typewriter", Damage:3, Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:5},sell:{id:"bibliocraft:bell",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:64},sell:{id:"bibliocraft:typesettingtable",Count:1},CareerLevel:1},
+			{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:64},sell:{id:"bibliocraft:printingpress",Count:1},CareerLevel:1}
+		]
+	}
+}

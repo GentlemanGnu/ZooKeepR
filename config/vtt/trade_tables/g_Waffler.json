@@ -1,0 +1,26 @@
+{ 
+	Profession: "vtt:concession", 
+	Career:"g_Waffler",
+	
+	Offers:{
+		Recipes:[
+
+		{action:"add", buy:{id:"quark:sugar_block", Count:64}, sell:{id:"modcurrency:coin", Damage:4,Count:{min:5,max:15}}, CareerLevel:1},
+		{action:"add", buy:{id:"minecraft:wheat", Count:{min:18,max:22}}, sell:{id:"modcurrency:coin", Damage:4,Count:1}, CareerLevel:1},
+
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:breakfast_burrito",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:choc_waffles",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:berry_waffles",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:bacon_pancakes",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:waffles",Count:1},CareerLevel:1},
+		{action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:molasses",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"birdsfoods:chocolate_milk",Count:1},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:1},sell:{id:"birdsfoods:molasses",Count:5},CareerLevel:1},
+        {action:"add",buy:{id:"modcurrency:coin",Damage:4,Count:2},sell:{id:"minecraft:potion",Count:1, tag:{Potion: "minecraft:water"}},CareerLevel:1}
+
+                    ]
+	        }
+	
+	}
+	
+	

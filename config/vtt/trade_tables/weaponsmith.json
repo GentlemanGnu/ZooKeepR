@@ -1,0 +1,40 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"weapon",
+	
+	Offers:{
+		Recipes:[
+
+			{action:"clear"},
+
+			{action:"add", 
+				buy: {id:"minecraft:coal", Count: {min:16,max:24} }, 
+				sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+
+			{action:"add",
+				buy: {id:"minecraft:iron_ingot",Count:{min:7,max:9}},
+				sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+
+			{action:"add",
+				buy:{id:"minecraft:diamond",Count:{min:3,max:4}},
+				sell:{id:"modcurrency:coin",Damage:4,Count:1},CareerLevel:1},
+
+			{action:"add",
+				buy:{id:"modcurrency:coin",Damage:4,Count:{min:12,max:15}},
+				sell:{id:"minecraft:diamond_sword",Count:1,tag:{ench:"random"}},CareerLevel:1},
+
+			{action:"add",
+				buy:{id:"modcurrency:coin",Damage:4,Count:{min:9,max:12}},
+				sell:{id:"minecraft:diamond_axe",Count:1,tag:{ench:"random"}},CareerLevel:1},
+			{action:"add",
+				buy:{id:"modcurrency:coin",Damage:4,Count:{min:9,max:10}},
+				sell:{id:"minecraft:iron_sword",Count:1,tag:{ench:"random"}},CareerLevel:1},
+
+			{action:"add",
+				buy:{id:"modcurrency:coin",Damage:4,Count:{min:6,max:8}},
+				sell:{id:"minecraft:iron_axe",Count:1},CareerLevel:1}
+		]
+	}
+}
+	
+	

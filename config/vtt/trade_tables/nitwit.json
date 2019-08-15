@@ -1,0 +1,13 @@
+{ 
+	Profession:"minecraft:nitwit", 
+	Career:"nitwit",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"minecraft:poisonous_potato",Count:{min:5,max:12}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:rotten_flesh",Count:{min:26,max:45}},sell:{id:"modcurrency:coin", Damage:4, Count:1}, CareerLevel:1}
+		]
+	}
+
+}

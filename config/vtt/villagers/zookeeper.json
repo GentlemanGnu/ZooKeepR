@@ -1,0 +1,16 @@
+{
+	profession: {
+		name: "vtt:zookeeper",
+		texture: "vtt:textures/entity/villager/brewer.png",
+		zombieTexture: "vtt:textures/entity/zombie_villager/zombie_brewer.png"
+	},
+	careers: [
+		"g_entomologist",
+		"g_frogman",
+		"g_groundskeeper",
+		"g_ornithologist",
+		"g_vet",
+		"g_exhibit_keeper",
+		"g_zookeeper"
+	]
+}

@@ -1,0 +1,79 @@
+{
+    "pools": [
+        
+
+        {"rolls": {"min": 0, "max": 3},
+            "entries": [
+                {"type": "item", "name": "minecraft:wheat", "weight": 5},
+                {"type": "item", "name": "cyclicmagic:magic_net", "weight": 5},
+                {"type": "item", "name": "minecraft:brewing_stand", "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}], "weight": 5},
+                {"type": "item", "name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item", "name": "minecraft:diamond", "functions": [{"function": "set_count", "count": {"min": 1, "max": 5}}], "weight": 1},                
+                {"type": "item","name": "minecraft:blaze_rod", "weight": 2},
+                {"type": "item","name": "minecraft:experience_bottle", "weight": 2},
+                {"type": "item","name": "minecraft:skull", "weight": 2},
+                {"type": "empty", "weight": 25}
+                        ]
+        },
+               
+        {"rolls": 3,
+            "entries": [
+                {"type": "item","name": "birdsfoods:raw_bacon", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:feather", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "waterstrainer:worm", "functions": [{"function": "set_count", "count":{"min": 1, "max": 8}}], "weight": 2},
+                {"type": "item","name": "simplystrawberries:strawberryseeditem", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "minecraft:stick", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:glass_bottle", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "birdsfoods:chocolate_milk", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:coal", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:preservation_chamber", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:fruit_basket", "weight": 2},
+                {"type": "item","name": "modcurrency:coin", "functions": [{"function": "set_data", "data": 4}, {"function": "set_count", "count":{"min": 4, "max": 9}}],"weight": 5},
+                {"type": "item","name": "cookingforblockheads:ice_unit", "weight": 2},
+                {"type": "item","name": "cookingforblockheads:heating_unit", "weight": 2},
+                {"type": "item","name": "minecraft:emerald", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "minecraft:glass_bottle", "functions": [{"function": "set_count", "count":{"min": 4, "max": 9}}], "weight": 2},
+                {"type": "item","name": "fluxnetworks:flux", "functions": [{"function": "set_count", "count":{"min": 9, "max": 64}}], "weight": 2},
+                {"type": "item","name": "doggytalents:dog_bath", "weight": 2}
+                        ]
+        },
+        {"rolls": 1,
+            "entries": [
+                {"type": "item","name": "betteranimalsplus:bearhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bearhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:deerhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:deerhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:reindeerhead_4", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:hirschgeistskullwearable", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:antler", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_pelt_snowy", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_pelt_timber", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_pelt_black", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_cape_classic", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_cape_timber", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolf_cape_black", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_skin_brown", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_skin_black", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_skin_kermode", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_cape_brown", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_cape_black", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:bear_cape_kermode", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:wolfhead_4", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:foxhead_4", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
+                {"type": "item","name": "betteranimalsplus:boarhead_4", "functions": [{"function": "set_count", "count":1}], "weight": 2}]
+        }
+
+    ]
+}

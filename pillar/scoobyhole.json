@@ -1,0 +1,43 @@
+{
+	"generatorType": "SURFACE",
+	"minY": 20,
+	"maxY": 70,
+	"offsetX": 0,
+	"offsetY": -15,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"nt:hotspring", 
+		"nt:meadow", 
+		"nt:royal_forest_hills", 
+		"minecraft:mutated_savanna", 
+		"minecraft:savanna_rock", 
+		"minecraft:mutated_savanna_rock", 
+		"nt:mountains",
+		"nt:royal_forest",
+		"nt:floral_meadow",
+		"minecraft:desert",
+		"minecraft:beach"
+
+	],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": true,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:stone",
+	"fillingMetadata": 0,
+	"fillingType": "AIR",
+	
+	"rarity": 650
+
+}
