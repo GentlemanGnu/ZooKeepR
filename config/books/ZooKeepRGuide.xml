@@ -21,11 +21,13 @@
 
 
 			<p align="center"> <image src="gbook:ostrich100" tw="100" th="100" align="center"/></p>
-			<p> **************</p>
+			<p align="center"> **************</p>
 			<p color="#606060">This book is a work in progress.</p>
 
 			<p color="#606060" align="center">
 				It may eventually contain the information you need to be a brilliant ZooKeepR.
+			</p>
+			<p align="center"> Wiki and Issues Tracker can be found on our GitHub <link href="https://github.com/GentlemanGnu/ZooKeepR">here</link>
 			</p>
 		</section>
 
@@ -105,7 +107,7 @@
 			</p>
 
 			<p>And of course, you can always ride on your Phoenix.</p>
-			<p align="center"><image src="gbook:phoenix" tw="100" th="100"/></p>
+			<p align="center"><image src="gbook:phoenix" tw="80" th="80"/></p>
 			<p>  (See the Exotic Birds Mod and Wiki for further information)</p>
 
 		</section>
@@ -119,7 +121,7 @@
 			</p>
 
 			<p>
-				You will usually find there is at least a couple of ways to get any of the resources used in crafting within ZooKeepR.  This is not aimed to be a grindy, or heavily directed pack.
+				You will usually find there is at least a couple of ways to get any of the resources used in crafting within ZooKeepR.  Sources tell me the pack is even playable in Peaceful Mode, though a few mobs may not be available.  This is not aimed to be a grindy, or heavily directed pack.
 			</p>
 
 			<p>
@@ -156,7 +158,12 @@
 			<p><image src="gbook:multipagechest" tw="125" th="125"/></p>
 
 		</section>
-
+		<section>
+	   		<p align="center"><image src="gbook:drawers" tw="100" th="100"/></p>
+		<title bold="true">Storage Drawers</title>
+      		<p>Crafted from chests and wood, each Drawer can hold multiple stacks of a single item and can be upgraded to hold even more (or even to delete your extras with a void upgrade).  Any drawers connected to a Drawer Controller (even up to 20 blocks away) can be seen by the controller. By double clicking on the controller face, you can automatically deposit anything in your inventory that has a matching space in the drawer network.  The controller also allows automated input/output through itemducts and other item moving mechanisms.  It can be connected to your Simple Storage Network using a Storage Link Cable.
+			</p>
+		</section>
 		<section>
 
 			<p><image src="gbook:ssn" tw="125" th="100"/></p>
@@ -187,17 +194,31 @@
 
 			<title bold="true" scale="1">The ZooKeepR Adoption Centre</title>
 			<p>
-				The Store has been setup to deliver animals, in morbs, upon purchase.  Craft the store and install it in an open space.  Your animals will be delivered in crates from the sky.  Have the money in your inventory when you want to buy.
+				The Store (search store in JEI) has been setup to deliver animals, in morbs, upon purchase.  Craft the store and install it in an open space.  Your animals will be delivered in crates from the sky.  Have the money in your inventory when you want to buy.
 			</p>
-
-			<title bold="true" scale="1">Taming Animals</title>
+			
+			<title bold="true" scale="1">Taming Zawa Animals</title>
 			<p>
-				Kibble is the base of all kibbles used to tame ZAWA animals! Depending on the trait of the animal, it may take more than one try. Use the animal data book to find out what kibble the animal you are trying to tame needs.
+				General Kibble can be combined with various items to used specific Kibbles that are used to tame ZAWA animals! Depending on the trait of the animal, it may take more than one try. Use the animal data book to find out what kibble the animal you are trying to tame needs.
 			</p>
 			<p align="center"><image src="gbook:kibbleshort" tw="150" th="30"/></p>
+			<title bold="true" scale="1">Taming Better Animals Plus</title>
+			<p>The Lammergeir can be tamed at any time with Bones.
+			Coyotes can be tamed only during the day time.  Coyotes and Foxes can be tamed with any of the following, Raw Rabbit, Raw Chicken, Raw Pheasant, Cooked Rabbit, Cooked Chicken, Cooked Pheasant.
+			The goat is not tameable in the traditional sense (attacking it will cause it to retaliate!) but feeding it any sort of animal foods (wheat, carrots, apples, etc.) will cause it to become "friends" with you and protect you if you are attacked.
+			</p>
 
+
+			<title bold="true" scale="1">Taming Foxhound</title>
 			<p>
-				Butterflies can be caught using Bug Nets and Bug Habitats. If you have an empty Bug Habitat in your inventory, the butterfly will automatically be placed in it when caught.
+				These hostile hounds spawn in the nether, and will set you on fire.  You can tame these hounds with coal pieces.  Each piece has a chance to tame the hound.  Tamed hounds will sit if you click on them with coal.  A tamed hound will follow you like a wolf.
+			</p>
+
+
+
+			<title bold="true" scale="1">Butterflies</title>
+			<p>
+				Butterflies can be caught using Bug Nets and Bug Habitats. If you have an empty Bug Habitat in your inventory, the butterfly will automatically be placed in it when caught in the net.
 			</p>
 			<p align="center"><image src="gbook:lionflamingo" tw="120" th="120"/></p>
 
@@ -206,7 +227,7 @@
 			<p>
 				As well as morbs and monster balls for trapping and relocating animals and other mobs, there are a set of Control Wands.  These are craftable and the recipes can be found in JEI.
 			</p>
-			<p align="center"><image src="gbook:hippo200" tw="130" th="130"/></p>
+			<p align="center"><image src="gbook:hippo200" tw="100" th="100"/></p>
 
 			<p>The <span bold="true">Wand of Ages</span> will prevent baby mobs from ever growing up!!</p>
 			<p>The <span bold="true">Wand of Following</span> will make a mob follow you like a pet.</p>
@@ -227,7 +248,7 @@
 			<p>
 				While the vanilla animals still breed the same way as they do in vanilla minecraft, the new animals introduce some unique methods of breeding.
 			</p>
-			<p align="center"><image src="gbook:parrot-eggs120" tw="120" th="120"/></p>
+			<p align="center"><image src="gbook:parrot-eggs120" tw="100" th="100"/></p>
 
 			<title bold="true" scale="1">QUARK Parrot Eggs</title>
 			<p>	
@@ -273,7 +294,9 @@
 			<title bold="true" scale="1">Zoo and Wild Animals</title>
 			<p>ZAWA animals use breeding vials.</p>
 			<p>Breeding vials are crafted using appropriate kibble and a bottle of water.</p>
-			<p>Exotic Birds lay eggs in nests and in the world.</p>
+
+			<title bold="true" scale="1">Exotic Birds</title>
+			<p>Exotic Birds lay eggs in nests and in the world.  Mystery eggs can be identified in an Egg Identifier, and an Egg Incubator can increase the chance of an egg hatching.</p>
 
 		</section>
 		
@@ -285,25 +308,21 @@
 			<p align="center"><link href="https://github.com/percivalalb/DoggyTalents/wiki">Doggy Talents Wiki</link></p>
 
 			<p>
-				Your Doggy is invincible, and will follow you around. Their behaviour can be controlled.  Click on your dog with a piece of wood and you will open a gui (window).
+				Your Doggy is invincible, and will follow you around. Their behaviour can be controlled.  
 			</p>
 
 			<p>
-				You can care for your dogs with beds, food bowls, and dog baths.
+				You can care for your dogs with beds, food bowls, and dog baths.  A dog Command Whistle can be used to call your dog, and to give it simple instructions like heel, stay and sit.  Clicking shift while right clicking lets you change the command.  Your dog will require food and will whine when its food levels get below 20.  Food levels go up to 120.  Dogs can eat a variety of foods, depending on their Talents. Dogs can play fetch. Ever wished your dog would fish for you, or could carry items?  
 			</p>
 
-			<p>
-				Your dog will require food and will whine when its food levels get below 20.  Food levels go up to 120.  Dogs can eat a variety of foods, depending on their Talents.  These Doggy Talent dogs can skill up in a variety of ways.  Dogs can play fetch. Ever wished your dog would fish for you, or could carry items?  
-			</p>
-
-			<p align="center"><image src="gbook:packpuppy-inventory" tw="90" th="90"/></p>
-			<p>Try clicking on your dog with a stick.</p>
+			<p align="center"><image src="gbook:packpuppy-inventory" tw="100" th="100"/></p>
+			<p>Click on your dog with a stick and you will open a gui (window).</p>
 
 			<p align="center"><image src="gbook:doggytalents1" tw="90" th="90"/></p>
-			<p>This will open a GUI where you can customise your dogs appearance and talents.</p>
+			<p> where you can customise your dogs appearance and talents.    These Doggy Talent dogs can skill up in a variety of ways.</p>
 			
 			<p align="center"><image src="gbook:doggytalents" tw="90" th="90"/></p>
-			<p>Further training points can be earned with treats.</p>
+			<p>Further training points can be earned with treats.  These treats can be found in treasure chests, and the recipes are available in JEI.</p>
 
 			<p align="center"><image src="gbook:treatsshort" tw="125" th="25"/></p>
 
@@ -425,17 +444,29 @@
 				<space/>
 				<stack item="minecraft:name_tag"/>
 			</big_recipe>
+		</section>
 
+		<section>
 			<p bold="true">Fur/Hide to Leather</p>
-			<p>You can use a variety of axes and tools with different hides and furs to make leather.</p>
+			<p>You can use a wooden axes and some tools with different hides and furs to make leather.</p>
 
 			<p bold="true">Wool to String</p>
 			<p>Like Leather, you can use a variety of shears with all wool variations to make string.</p>
 
 			<p bold="true">Enchanted Books</p>
-			<p>You can make plenty of enhcanted books including Mending, Unbreaking, Veining and Lumbering.	</p>
-			<p><image src="gbook:mending" tw="200" th="79"/></p>
-
+			<p>You can make plenty of enhcanted books including Mending, Unbreaking, Veining and Lumbering in the crafting table.	</p>
+			<big_recipe>
+				<stack item="minecraft:iron_block"/>
+				<stack item="minecraft:experience_bottle"/>
+				<stack item="minecraft:iron_block"/>
+				<stack item="minecraft:experience_bottle"/>
+				<stack item="minecraft:writable_book"/>
+				<stack item="minecraft:experience_bottle"/>
+				<stack item="minecraft:iron_block"/>
+				<stack item="minecraft:experience_bottle"/>
+				<stack item="minecraft:iron_block"/>
+				<stack item="minecraft:enchanted_book"/>
+			</big_recipe>
 		</section>
 	</chapter>
 
