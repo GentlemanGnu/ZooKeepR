@@ -33,7 +33,29 @@ val verySmallValueMobs = [
 	"minecraft:rabbit",
 	"zoocraftdiscoveries:gecko",
 	"betteranimalsplus:squirrel",
-	"zawa:orca"
+	"zawa:orca",
+	"exoticbirds:budgerigar",
+	"exoticbirds:kookaburra",
+	"exoticbirds:crane",
+	"exoticbirds:robin",
+	"exoticbirds:bluejay",
+	"exoticbirds:cardinal",
+	"exoticbirds:booby",
+	"exoticbirds:heron",
+	"exoticbirds:woodpecker",
+	"exoticbirds:toucan",
+	"exoticbirds:seagull",
+	"exoticbirds:roadrunner",
+	"exoticbirds:pigeon",
+	"exoticbirds:pelican",
+	"exoticbirds:peafowl",
+	"exoticbirds:parrot",
+	"exoticbirds:owl",
+	"exoticbirds:magpie",
+	"exoticbirds:kingfisher",
+	"exoticbirds:hummingbird",
+	"exoticbirds:goulianfinch",
+	"exoticbirds:duck"
 ] as string[];
 
 val smallValueMobs = [
@@ -74,11 +96,9 @@ val smallValueMobs = [
 ] as string[];
 
 val mediumValueMobs = [
-	"minecraft:blaze",
 	"minecraft:ocelot",
 	"minecraft:parrot",
 	"minecraft:endermite",
-	"minecraft:husk",
 	"minecraft:mule",
 	"faunanatural:marmoset",
 	"faunanatural:axolotl",
@@ -92,17 +112,32 @@ val mediumValueMobs = [
 	"zoocraftdiscoveries:capybara",
 	"zoocraftdiscoveries:porcupine",
 	"zawa:toucan",
+	"faunanatural:common_loon",
+	"faunanatural:cream-coloured_courser",
+	"familiarfauna:familiarfauna.butterfly",
+	"familiarfauna:familiarfauna.deer",
+	"familiarfauna:familiarfauna.dragonfly",
+	"familiarfauna:familiarfauna.pixie",
+	"familiarfauna:familiarfauna.snail",
+	"familiarfauna:familiarfauna.turkey",
 	"zawa:cockatoo",
 	"betteranimalsplus:badger",
 	"betteranimalsplus:crab",
 	"betteranimalsplus:horseshoecrab",
 	"quark:crab",
-	"quark:frog"
+	"quark:foxhound",
+	"exoticbirds:emperorpenguin",
+	"exoticbirds:lyrebird",
+	"exoticbirds:kiwi",
+	"exoticbirds:vulture",
+	"exoticbirds:flamingo",
+	"exoticbirds:cassowary",
+	"exoticbirds:swan",
+	"exoticbirds:ostrich"
 ] as string[];
 
 val largeValueMobs = [
 	"faunanatural:estuary_stingray",
-	"minecraft:shulker",
 	"faunanatural:puma",
 	"faunanatural:african_cheetah",
 	"faunanatural:red_billed_tropicbird",
@@ -115,6 +150,7 @@ val largeValueMobs = [
 	"zoocraftdiscoveries:anteater",
 	"zoocraftdiscoveries:rhino",
 	"zoocraftdiscoveries:camel",
+	"betteranimalsplus:lamprey",
 	"zawa:koala",
 	"zawa:macaw",
 	"zawa:gaur"
@@ -128,7 +164,15 @@ val veryLargeValueMobs = [
 	"quark:pirate",
 	"minecraft:zombie_villager",
 	"minecraft:evocation_illager",
-	"minecraft:vindication_illager"
+	"minecraft:vindication_illager",
+	"exoticbirds:cloud_phoenix",
+	"exoticbirds:water_phoenix",
+	"exoticbirds:nether_phoenix",
+	"exoticbirds:snow_phoenix",
+	"exoticbirds:desert_phoenix",
+	"exoticbirds:ender_phoenix",
+	"exoticbirds:twilight_phoenix",
+	"exoticbirds:phoenix"
 ] as string[];
 
 
@@ -182,3 +226,7 @@ mods.Delivery.Store.addTrade(<zawa:black_rhinoceros>).addItem(<modcurrency:coin:
 mods.Delivery.Store.addTrade(<zawa:red_panda>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:bengal_tiger>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:bottlenose_dolphin>).addItem(<modcurrency:coin:4>*64);
+mods.Delivery.Store.addTrade(<zawa:puffer_fish>).addItem(<modcurrency:coin:4>*64);
+mods.Delivery.Store.addTrade(<zawa:sockeye_salmon>).addItem(<modcurrency:coin:4>*64);
+mods.Delivery.Store.addTrade(<zawa:clown_fish>).addItem(<modcurrency:coin:4>*64);
+mods.Delivery.Store.addTrade(<zawa:blue_fish>).addItem(<modcurrency:coin:4>*64);

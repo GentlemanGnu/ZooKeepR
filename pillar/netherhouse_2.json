@@ -1,30 +1,36 @@
 {
-	"generatorType": "ANYWHERE",
-	"minY": 0,
-	"maxY": 250,
+	"generatorType": "SURFACE",
+	"minY": 30,
+	"maxY": 150,
 	"offsetX": 0,
-	"offsetY": 0,
+	"offsetY": -1,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [-1],
-	"biomeNameSpawns": ["netherliving:oasis"],
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": ["nt:estuary",
+		"nt:bog",
+		"nt:fen",
+		"nt:glacier"
+
+
+],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": true,
 	"generateEverywhere": false,
 
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:netherrack",
+	"filling": "minecraft:stone",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 350
+	"rarity": 650
 
 }

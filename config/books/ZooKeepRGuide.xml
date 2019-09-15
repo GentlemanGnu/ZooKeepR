@@ -184,6 +184,11 @@
 
 			<p align="center"><image src="gbook:thermal" tw="120" th="120"/></p>
 			<p align="center"><image src="gbook:littletiles" tw="160" th="160"/></p>
+			<title align="center" scale="1.5">Nether</title>
+			<p>
+			There is no Need to "go deeper" in ZooKeepR.  All the resources you might need from the nether are available in the overworld.  In fact, lighting a portal to get to the nether won't work, the nether has been disabled in ZooKeepR.
+				</p>
+
 
 		</section>
 	</chapter>

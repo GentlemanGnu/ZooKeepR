@@ -1,5 +1,5 @@
 {
-	"generatorType": "ANYWHERE",
+	"generatorType": "SURFACE",
 	"minY": 30,
 	"maxY": 150,
 	"offsetX": 0,
@@ -10,23 +10,30 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [-1],
-	"biomeNameSpawns": [
-		"netherliving:swamp"
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": ["minecraft:desert", 
+		"nt:sahel", 
+		"nt:outback", 
+		"nt:sandy_scrubland", 
+		"nt:sand_dune",
+		"nt:hot_desert", 
+		"minecraft:mushroom_island", 
+		"nt:sandy_scrubland"
 	],
+
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": true,
 	"generateEverywhere": false,
 
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:netherrack",
+	"filling": "minecraft:sand",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 350
+	"rarity": 650
 
 }

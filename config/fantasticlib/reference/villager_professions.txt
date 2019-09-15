@@ -1,0 +1,12 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+vtt:brewer
+vtt:concession
+vtt:redstoner
+vtt:tinkerer
+vtt:zookeeper
+oreberries:tinker

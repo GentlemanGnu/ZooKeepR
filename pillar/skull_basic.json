@@ -1,7 +1,7 @@
 {
-	"generatorType": "ANYWHERE",
-	"minY": 0,
-	"maxY": 250,
+	"generatorType": "NONE",
+	"minY": 30,
+	"maxY": 150,
 	"offsetX": 0,
 	"offsetY": 0,
 	"offsetZ": 0,
@@ -10,21 +10,24 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [-1],
-	"biomeNameSpawns": ["netherliving:cocytus", "netherliving:swamp", "netherliving:oasis"],
+	"dimensionSpawns": [0],
+	"biomeNameSpawns": [
+		"minecraft:mushroom_island",
+		"minecraft:roofed_forest"
+	],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": true,
+	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": true,
 	"generateEverywhere": false,
 
 	"integrity": 1,
-	"decay": 0,
+	"decay": 0.8,
 
-	"filling": "minecraft:netherrack",
+	"filling": "minecraft:mycelium",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 320
+	"rarity": 20
 
 }

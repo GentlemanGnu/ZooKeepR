@@ -4,10 +4,6 @@ import crafttweaker.item.IItemStack;
 
 
     recipes.remove(<zawa:exploration_guide>);
-    recipes.remove(<zawa:bullet_rifle>);
-    recipes.remove(<zawa:bullet_shotgun>);
-    recipes.remove(<zawa:hunting_rifle>);
-    recipes.remove(<zawa:shotgun>);
     recipes.remove(<zawa:off_road_car>);
     recipes.remove(<zawa:atv>);
     recipes.remove(<armorplus:the_gift_of_the_gods>);
@@ -17,10 +13,6 @@ import crafttweaker.item.IItemStack;
 
     mods.jei.JEI.removeAndHide(<aquaculture:loot:2>);
     mods.jei.JEI.removeAndHide(<zawa:exploration_guide>);
-    mods.jei.JEI.removeAndHide(<zawa:bullet_rifle>);
-    mods.jei.JEI.removeAndHide(<zawa:bullet_shotgun>);
-    mods.jei.JEI.removeAndHide(<zawa:hunting_rifle>);
-    mods.jei.JEI.removeAndHide(<zawa:shotgun>);
     mods.jei.JEI.removeAndHide(<zawa:feed_trader>);
     mods.jei.JEI.removeAndHide(<zawa:animal_trader>);
     mods.jei.JEI.removeAndHide(<zawa:snakeskin>);
