@@ -1,5 +1,4 @@
-[
-  {
+[  {
     "dimension":0,
     "mob": ["zawa:albatross", 
       "zawa:amur_leopard", 
@@ -36,7 +35,7 @@
       "zawa:toucan", 
       "zawa:tree_frog",
       "quark:frog"],
-    "mincount": "30",
+    "mincount": "20",
     "perplayer": "true",
     "result": "deny"
   },
@@ -46,7 +45,11 @@
     "mob": "zawa:greenanaconda",
     "result": "deny"
   },
-  
+  {
+    "dimension":0,
+    "mob": "quark:stoneling",
+    "result": "deny"
+  },
   {
     "dimension": 0,
     "mob": "minecraft:blaze",

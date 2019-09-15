@@ -5,15 +5,15 @@
 	Offers:{
 		Recipes:[
 
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:128, Count:64}, sell:{id:"thermalfoundation:material", Damage:64,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:130, Count:64}, sell:{id:"thermalfoundation:material", Damage:66,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:133, Count:64}, sell:{id:"thermalfoundation:material", Damage:69,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"minecraft:gold_ingot", Count:64}, sell:{id:"thermalfoundation:material", Damage:1,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:129, Count:64}, sell:{id:"thermalfoundation:material", Damage:65,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:131, Count:64}, sell:{id:"thermalfoundation:material", Damage:67,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"thermalfoundation:material", Damage:134, Count:64}, sell:{id:"thermalfoundation:material", Damage:70,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"minecraft:coal", Count:64}, sell:{id:"thermalfoundation:material", Damage:768,Count:{min:45,max:58}}, CareerLevel:1},
-        {action:"add", buy:{id:"minecraft:obsidian", Count:16}, sell:{id:"thermalfoundation:material", Damage:770,Count:{min:45,max:58}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:128, Count:16}, sell:{id:"thermalfoundation:material", Damage:64,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:130, Count:16}, sell:{id:"thermalfoundation:material", Damage:66,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:133, Count:16}, sell:{id:"thermalfoundation:material", Damage:69,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"minecraft:gold_ingot", Count:16}, sell:{id:"thermalfoundation:material", Damage:1,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:129, Count:16}, sell:{id:"thermalfoundation:material", Damage:65,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:131, Count:616}, sell:{id:"thermalfoundation:material", Damage:67,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"thermalfoundation:material", Damage:134, Count:64}, sell:{id:"thermalfoundation:material", Damage:70,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"minecraft:coal", Count:16}, sell:{id:"thermalfoundation:material", Damage:768,Count:{min:11,max:28}}, CareerLevel:1},
+        {action:"add", buy:{id:"minecraft:obsidian", Count:16}, sell:{id:"thermalfoundation:material", Damage:770,Count:{min:11,max:28}}, CareerLevel:1},
         {action:"add", buy:{id:"minecraft:cobblestone", Count:64}, sell:{id:"minecraft:gravel",Count:{min:45,max:58}}, CareerLevel:1},
         {action:"add", buy:{id:"minecraft:gravel", Count:64}, sell:{id:"minecraft:sand",Count:{min:45,max:58}}, CareerLevel:1}
        
