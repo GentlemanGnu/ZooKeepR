@@ -68,6 +68,8 @@ CXLibrary by CubeX2 cxlibrary-1.12.1-1.6.1.jar
 
 Cyclic by Lothrazar Cyclic-1.12.2-1.19.18.jar
 
+Default Options	by BlayTheNinth DefaultOptions_1.12.2-9.2.8.jar
+
 Delivery by lemonszz delivery-1.12.2-1.6.2.jar
 
 Doggy Talents by percivalalb 	DoggyTalents-1.12.2-1.15.1.4-universal.jar
