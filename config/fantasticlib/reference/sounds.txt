@@ -680,6 +680,7 @@ exoticbirds:entity.robin.call
 exoticbirds:entity.budgie.call
 exoticbirds:book.page.write
 exoticbirds:book.page.turn
+fluxnetworks:button
 cfm:door_bell
 cfm:fire_alarm
 cfm:white_noise
@@ -714,6 +715,7 @@ cfm:sliding_door_open
 cfm:sliding_door_close
 cfm:bounce
 sbmelevators:teleport
+skinnedcarts:minecart.wednesday.frog
 waddles:adelie.ambient
 waddles:adelie.baby.ambient
 waddles:adelie.death

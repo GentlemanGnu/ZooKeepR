@@ -60,7 +60,7 @@ minecraft:mutated_savanna_rock
 minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
-armorplus:arena
+armorplus:realm_of_insanity
 nt:aegean_archipelago
 nt:alium_meadow
 nt:autumn_forest
