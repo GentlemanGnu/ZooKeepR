@@ -216,7 +216,7 @@
 
 			<title bold="true" scale="1">Taming Foxhound</title>
 			<p>
-				These hostile hounds spawn in the nether, and will set you on fire.  You can tame these hounds with coal pieces.  Each piece has a chance to tame the hound.  Tamed hounds will sit if you click on them with coal.  A tamed hound will follow you like a wolf.
+				These hostile hounds would normally spawn in the nether, and will set you on fire. You will need to buy this animal from the Animal Adoption Centre (Store). You can tame these hounds with coal pieces.  Each piece has a chance to tame the hound.  Tamed hounds will sit if you click on them with coal.  A tamed hound will follow you like a wolf.
 			</p>
 
 
@@ -242,7 +242,7 @@
 			<p>The <span bold="true">Wand of Immolation</span> will grant fire resistance to a mob and set it on fire - permanently.</p>		
 
 			<p>
-				Wands will spawn naturally in various treasure chests as rare loot <span italics="true">(very rare in ordinary dungeon chests and less rare in Nether, Stronghold chests...)</span>
+				Wands will spawn naturally in various treasure chests as rare loot <span italics="true">(very rare in ordinary dungeon chests and less rare in Stronghold chests...)</span>
 			</p>
 
 			<p>
@@ -480,32 +480,31 @@
 
 			<title bold="true" scale="1.5">Tips</title>
 
-			<p>Mobs can be picked up using a cyclic Monster Ball - throw it at a mob.</p>
-			<p>Heart container items increase your health permanently.</p>
-			<p>Crouch Right Click with a Mending tool will use your accumulated xp to repair that specific tool.</p>
-			<p>The Currency mod includes an exchange machine and a vending machine to sell items to other players.</p>
-			<p>The coins and notes can be crafted into different denominations.</p>
-			<p>Ore Excavation is not in the pack, but Veining and Lumbering Enchantments are.</p>
-			<p>Many Enchanted books can be crafted.</p>
+			<p>*Mobs can be picked up using a cyclic Monster Ball - throw it at a mob.</p>
+			<p>*Heart container items increase your health permanently.</p>
+			<p>*Crouch Right Click with a Mending tool will use your accumulated xp to repair that specific tool.</p>
+			<p>*The coins and notes can be crafted into different denominations.</p>
+			<p>*Ore Excavation is not in the pack, but Veining and Lumbering Enchantments are.</p>
+			<p>*Many Enchanted books can be crafted.</p>
 			<p align="center"><image src="gbook:lionflamingo" tw="90" th="90"/></p>
-			<p>Eggshells work as bone meal, sometimes.</p>
-			<p>Dungeon finder works like the ender eye but finds the closest spawner.</p>
-			<p>Ore will spawn in the nether and the end.</p>
-			<p>The Uncrafter will break most crafted items into its base ingredients.</p>
-			<p>The cyclic Water Candle acts like a mob spawner.</p>
-			<p>Look up or down on a ladder to climb quickly.</p>
+			<p>*Eggshells work as bone meal, sometimes.</p>
+			<p>*Dungeon finder works like the ender eye but finds the closest spawner.</p>
+			<p>*Ores will spawn in the end.</p>
+			<p>*The Uncrafter will break most crafted items into base ingredients.</p>
+			<p>*The cyclic Water Candle acts like a mob spawner.</p>
+			<p>*Look up or down on a ladder to climb quickly.</p>
 			<p align="center"><image src="gbook:giraffe200" tw="90" th="90"/></p>
-			<p>Ender pearls work on horseback, bringing the horse with you.</p>
-			<p>There are new villagers in the world, and your familiar friends have some new things to trade.  Don't forget to check them out.</p>
-			<p>Challenger mobs are harder to defeat, but drop better loot.</p>
-			<p>Nature's compass will help you to find a specific biome.</p>
-			<p>No mobs drop experience when killed.</p>
-			<p>You can push mob spawners with pistons.</p>
+			<p>*Ender pearls work on horseback, bringing the horse with you.</p>
+			<p>*There are new villagers in the world, and your familiar friends have some new things to trade.  Don't forget to check them out.</p>
+			<p>*Challenger mobs are harder to defeat, but drop better loot.</p>
+			<p>*Nature's compass will help you to find a specific biome.</p>
+			<p>*No mobs drop experience when killed.</p>
+			<p>*You can push mob spawners with pistons.</p>
 			<p align="center"><image src="gbook:flamingo" tw="90" th="90"/></p>
-			<p>Oreberries grow in the dark.  Essence-berries will grow where there is light.</p>
-			<p>The Elytra can be dyed with any of the 16 dyes. You can dye it as many times as you want.</p>
-			<p>Pirate ships will spawn in Ocean biomes. Pirate mobs don't despawn.</p>
-			<p>Fishing will net you some valuable results!</p>
+			<p>*Oreberries grow in the dark.  Essence-berries will grow where there is light.</p>
+			<p>*The Elytra can be dyed with any of the 16 dyes. You can dye it as many times as you want.</p>
+			<p>*Pirate ships will spawn in Ocean biomes. Pirate mobs don't despawn.</p>
+			<p>*Fishing will net you some valuable results!</p>
 
 		</section>
 	</chapter>
