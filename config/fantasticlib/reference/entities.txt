@@ -82,12 +82,6 @@ minecraft:parrot
 minecraft:villager
 minecraft:ender_crystal
 aquaculture:custom_fish_hook
-quark:flat_item_frame
-quark:leash_knot
-quark:colored_item_frame
-quark:glass_item_frame
-quark:pickarang
-quark:parrot_egg
 quark:chest_passenger
 quark:stoneling
 quark:foxhound
@@ -95,6 +89,12 @@ quark:pirate
 quark:crab
 quark:seat
 quark:gravisand
+quark:pickarang
+quark:parrot_egg
+quark:flat_item_frame
+quark:leash_knot
+quark:colored_item_frame
+quark:glass_item_frame
 bibliocraft:biblioseat
 buildinggadgets:blockbuildentity
 buildinggadgets:constructionblockentity
