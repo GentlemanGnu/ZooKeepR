@@ -14,7 +14,9 @@
 			<p scale="1.5"> <link ref="tips">Tips and Tricks</link> </p>
 			<p scale="1.5"> <link ref="credits">Credits</link> </p>
 			<p>-----</p>
-			<p>ZooKeepR does not have a quest line.  This is not a modpack designed for "Beating".  It is a sandbox modpack, and I invite you to bring your creativity with you as you play the pack. The goal of this pack is to build, to explore, to create, and to have fun.
+			<p>ZooKeepR does not have a quest line.  This is not a modpack designed for "Beating". 
+			</p>
+			<p> It is a sandbox modpack, and I invite you to bring your creativity with you as you play the pack. The goal of this pack is to build, to explore, to create, and to have fun.
 			</p>
 		</section>
 		<section>
@@ -22,12 +24,11 @@
 
 			<p align="center"> <image src="gbook:ostrich100" tw="100" th="100" align="center"/></p>
 			<p align="center"> **************</p>
-			<p color="#606060">This book is a work in progress.</p>
+			<p align="center" color="#606060">if you experience large quantities of sea creatures causing fps drop in your game, </p>
 
-			<p color="#606060" align="center">
-				It may eventually contain the information you need to be a brilliant ZooKeepR.
+			<p scale="1.5" color="#606060" align="center">type the command /fzkk to kill excess unnamed zawa sea creatures.
 			</p>
-			<p align="center"> Wiki and Issues Tracker can be found on our GitHub <link href="https://github.com/GentlemanGnu/ZooKeepR">here</link>
+			<p align="center"> Issues Tracker and GitHub <link href="https://github.com/GentlemanGnu/ZooKeepR">here</link>
 			</p>
 		</section>
 
