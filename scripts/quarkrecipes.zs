@@ -2,7 +2,7 @@ recipes.remove(<quark:elder_prismarine:2>);
 
 recipes.addShaped("DiamondHeart", <quark:diamond_heart>,
     [[<cyclicmagic:charm_antidote>, <cyclicmagic:charm_water>, <cyclicmagic:charm_void>],
-    [<cyclicmagic:charm_air>, <cyclicmagic:soulstone>, <cyclicmagic:charm_speed>],
+    [<cyclicmagic:charm_air>, null, <cyclicmagic:charm_speed>],
     [<cyclicmagic:charm_boat>, <cyclicmagic:charm_fire>, <cyclicmagic:charm_wing>]
     ]);
 
