@@ -3,7 +3,7 @@
 	"minY": 30,
 	"maxY": 150,
 	"offsetX": 0,
-	"offsetY": -3,
+	"offsetY": 0,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
@@ -11,12 +11,14 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:mutated_forest", 
-		"minecraft:birch_forest", 
-		"minecraft:mutated_forest", 
-		"nt:blossom_forest_hills",
-		"nt:fungal_jungle"
-	],
+	"biomeNameSpawns": [
+		"nt:alps",
+		"nt:cold_birch_forest", 
+		"nt:cold_desert", 
+		"minecraft:ice_mountains",
+		"minecraft:taiga_cold_hills",
+		"minecraft:taiga_cold"
+		],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
@@ -26,10 +28,10 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:stone",
+	"filling": "minecraft:snow_block",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 450
+	"rarity": 650
 
 }

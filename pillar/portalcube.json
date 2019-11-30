@@ -1,9 +1,9 @@
 {
-	"generatorType": "SURFACE",
+	"generatorType": "NONE",
 	"minY": 30,
 	"maxY": 150,
 	"offsetX": 0,
-	"offsetY": -3,
+	"offsetY": -1,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
@@ -11,15 +11,14 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:mutated_forest", 
-		"minecraft:birch_forest", 
-		"minecraft:mutated_forest", 
-		"nt:blossom_forest_hills",
-		"nt:fungal_jungle"
-	],
+	"biomeNameSpawns": ["minecraft:plains",
+						"minecraft:taiga",
+						"minecraft:flower_forest",
+						"minecraft:wooded_mountains",
+						"minecraft:birch_forest"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
 	"isBiomeTagSpawnsBlacklist": true,
 	"generateEverywhere": false,
 
@@ -31,5 +30,4 @@
 	"fillingType": "AIR",
 	
 	"rarity": 450
-
 }

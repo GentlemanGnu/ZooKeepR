@@ -11,13 +11,12 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["nt:estuary",
-		"nt:bog",
-		"nt:fen",
-		"nt:glacier"
-
-
-],
+	"biomeNameSpawns": ["minecraft:plains",
+						"minecraft:taiga",
+						"minecraft:flower_forest",
+						"minecraft:wooded_mountains",
+						"minecraft:birch_forest"],
+						
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,

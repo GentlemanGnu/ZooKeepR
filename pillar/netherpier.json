@@ -1,9 +1,9 @@
 {
 	"generatorType": "SURFACE",
-	"minY": 30,
-	"maxY": 150,
+	"minY": 0,
+	"maxY": 250,
 	"offsetX": 0,
-	"offsetY": -3,
+	"offsetY": 2,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
@@ -11,22 +11,21 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:mutated_forest", 
-		"minecraft:birch_forest", 
-		"minecraft:mutated_forest", 
-		"nt:blossom_forest_hills",
-		"nt:fungal_jungle"
-	],
+	"biomeNameSpawns": ["minecraft:plains",
+						"minecraft:taiga",
+						"minecraft:flower_forest",
+						"minecraft:wooded_mountains",
+						"minecraft:birch_forest"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
 	"isBiomeTagSpawnsBlacklist": true,
 	"generateEverywhere": false,
 
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "minecraft:stone",
+	"filling": "minecraft:netherrack",
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	

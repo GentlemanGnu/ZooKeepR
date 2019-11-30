@@ -11,12 +11,12 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": [ 
-		"nt:heath",
-		"nt:scrubland",
-		"nt:lake",
-		"nt:lowland"
-	],
+	"biomeNameSpawns": ["minecraft:plains",
+						"minecraft:taiga",
+						"minecraft:flower_forest",
+						"minecraft:wooded_mountains",
+						"minecraft:birch_forest"],
+						
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,

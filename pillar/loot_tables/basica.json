@@ -86,7 +86,6 @@
                 {"type": "item","name": "betteranimalsplus:wolfhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
                 {"type": "item","name": "betteranimalsplus:wolfhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
                 {"type": "item","name": "betteranimalsplus:wolfhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},
-                {"type": "item","name": "betteranimalsplus:wolfhead_4", "functions": [{"function": "set_count", "count":1}], "weight": 2},
                 {"type": "item","name": "betteranimalsplus:foxhead_1", "functions": [{"function": "set_count", "count":1}], "weight": 2},
                 {"type": "item","name": "betteranimalsplus:foxhead_2", "functions": [{"function": "set_count", "count":1}], "weight": 2},
                 {"type": "item","name": "betteranimalsplus:foxhead_3", "functions": [{"function": "set_count", "count":1}], "weight": 2},

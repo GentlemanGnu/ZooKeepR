@@ -3,7 +3,7 @@
 	"minY": 30,
 	"maxY": 150,
 	"offsetX": 0,
-	"offsetY": -3,
+	"offsetY": -1,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
@@ -11,11 +11,17 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:mutated_forest", 
-		"minecraft:birch_forest", 
-		"minecraft:mutated_forest", 
-		"nt:blossom_forest_hills",
-		"nt:fungal_jungle"
+	"biomeNameSpawns": [
+		"nt:green_swamp", 
+		"minecraft:redwood_taiga_hills", 
+		"minecraft:mutated_roofed_forest", 
+		"minecraft:taiga_hills", 
+		"nt:stone_mountains", 
+		"nt:clayland",
+		"nt:cliffs",
+		"nt:dry_forest_hills",
+		"nt:hot_desert",
+		"nt:tall_oak_forest_hills"
 	],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
@@ -30,6 +36,6 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 450
+	"rarity": 650
 
 }

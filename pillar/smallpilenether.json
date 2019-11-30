@@ -3,7 +3,7 @@
 	"minY": 30,
 	"maxY": 150,
 	"offsetX": 0,
-	"offsetY": -3,
+	"offsetY": -1,
 	"offsetZ": 0,
 
 	"mirrorType": "NONE",
@@ -11,12 +11,22 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:mutated_forest", 
-		"minecraft:birch_forest", 
-		"minecraft:mutated_forest", 
-		"nt:blossom_forest_hills",
-		"nt:fungal_jungle"
-	],
+	"biomeNameSpawns": [
+		"minecraft:birch_forest_hills", 
+		"nt:cold_flower_forest", 
+		"nt:scrubland",
+		"nt:clayland",
+		"plants2:crystal_forest",
+		"nt:green_mixed_forest",
+		"nt:hotspring",
+		"nt:mega_autumn_taiga",
+		"nt:snowy_pine_forest",
+		"minecraft:plains",
+		"minecraft:taiga",
+		"minecraft:flower_forest",
+		"minecraft:wooded_mountains",
+		"minecraft:birch_forest"],
+		
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
