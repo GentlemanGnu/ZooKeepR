@@ -1,5 +1,73 @@
 [
   {
+    "dimension": 0,
+    "mob": "minecraft:blaze",
+    "spawner":"true",
+    "maxlight":"7",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:blaze",
+    "spawner":"true",
+    "minlight":"8",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:wither_skeleton",
+    "spawner":"true",
+    "maxlight":"7",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:wither_skeleton",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:slime",
+    "spawner":"true",
+    "minlight":"7",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:slime",
+    "spawner":"true",
+    "minlight":"8",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:husk",
+    "spawner":"true",
+    "maxlight": "8",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:husk",
+    "spawner":"true",
+    "minlight":"8",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:stray",
+    "spawner":"true",
+    "maxlight": "8",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:stray",
+    "spawner":"true",
+    "minlight":"8",
+    "result": "deny"
+  },
+  {
     "dimension":0,
     "mob": ["zawa:albatross", 
       "zawa:amur_leopard", 
@@ -36,54 +104,13 @@
       "zawa:toucan", 
       "zawa:tree_frog",
       "quark:frog"],
-    "mincount": "20",
+    "maxcount": "30",
     "perplayer": "true",
     "result": "deny"
   },
-
   {
-    "dimension":0,
-    "mob": "zawa:greenanaconda",
-    "result": "deny"
-  },
-  {
-    "dimension":0,
-    "mob": "quark:stoneling",
-    "result": "deny"
-  },
-  {
-    "dimension": 0,
-    "mob": "minecraft:blaze",
-    "spawner":"true",
-    "maxlight": "8",
-    "result": "default"
-  },
-  {
-    "dimension": 0,
-    "mob": "minecraft:blaze",
-    "result": "deny"
-  },
-
-  {
-    "dimension": 0,
-    "mob": "minecraft:slime",
-    "spawner":"true",   
-    "maxlight": "7",
-    "result": "allow"
-  },
-  {
-    "dimension": 0,
-    "mob": "minecraft:slime",
-    "spawner":"true",   
-    "maxcount": "40",
-    "result": "deny"
-  },
-
-  {
-    "dimension": 0,
-    "mob": "minecraft:husk",
-    "spawner":"true",
-    "maxlight": "8",
-    "result": "default"
+   "dimension":0,
+   "mob": "zawa:greenanaconda",
+   "result": "deny"
   }
 ]
