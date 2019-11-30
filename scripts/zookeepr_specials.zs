@@ -3,6 +3,30 @@ import crafttweaker.enchantments.IEnchantmentDefinition;
 
 recipes.remove(<faunanatural:dagger_tooth>);
 
+// vanity items
+recipes.addShapedMirrored("sugarRollingPin",  <faunanatural:dagger_tooth>.withDisplayName("Sugar Rolling Pin").updateTag(<enchantment:minecraft:knockback>.makeEnchantment(10)),
+    [[null, null, <faunanatural:tooth_carnivore>],
+    [null, <quark:sugar_block>, null],
+    [<faunanatural:tooth_carnivore>, null, null]
+    ]);
+
+recipes.addShaped("rowanRBA", <armorplus:ender_dragon_battle_axe>.withDisplayName("§4R§6a§ei§2n§3b§5o§4w §6B§ea§2t§3t§5l§4e §6A§ex§3e").updateTag(<enchantment:cofhcore:vorpal>.makeEnchantment(10)).updateTag(<enchantment:minecraft:sharpness>.makeEnchantment(10)),
+    [[<armorplus:material:3>, <armorplus:material:3>,<armorplus:material:3>],
+    [null, <cyclicmagic:sign_editor>, null],
+    [null, <cyclicmagic:sign_editor>, null]
+    ]);
+
+recipes.addShaped("dreeadHammer", <thermalfoundation:tool.hammer_diamond>.withDisplayName("§3Dreadful Hammer").updateTag(<enchantment:minecraft:unbreaking>.makeEnchantment(3)).updateTag(<enchantment:minecraft:efficiency>.makeEnchantment(10)),
+    [[<armorplus:material:3>, <armorplus:material:3>, <armorplus:material:3>],
+    [<armorplus:material:3>, <thermalfoundation:material:2052>, <armorplus:material:3>],
+    [null, <thermalfoundation:material:2052>, null]
+    ]);
+    
+// crafting for difficult resources
+recipes.addShapedMirrored("flint_craft", <minecraft:flint>*2,  
+    [[<minecraft:gravel>, <minecraft:gravel>],
+    [<minecraft:gravel>]]);
+
 recipes.addShapedMirrored("kitchen_floor", <cookingforblockheads:kitchen_floor>*8,
     [[<quark:basalt:1>, <ore:stoneMarble>],
     [<ore:stoneMarble>, <quark:basalt:1>]]
@@ -62,24 +86,6 @@ recipes.addShaped("zawaMossyStone", <zawa:mixed_stone_mossy>*4,
     [[null, <minecraft:stone>, null],
     [<minecraft:stone>, <minecraft:vine>, <minecraft:stone>],
     [null, <minecraft:stone>, null]
-    ]);
-
-recipes.addShapedMirrored("sugarRollingPin",  <faunanatural:dagger_tooth>.withDisplayName("Sugar Rolling Pin").updateTag(<enchantment:minecraft:knockback>.makeEnchantment(10)),
-    [[null, null, <faunanatural:tooth_carnivore>],
-    [null, <quark:sugar_block>, null],
-    [<faunanatural:tooth_carnivore>, null, null]
-    ]);
-
-recipes.addShaped("rowanRBA", <armorplus:ender_dragon_battle_axe>.withDisplayName("§4R§6a§ei§2n§3b§5o§4w §6B§ea§2t§3t§5l§4e §6A§ex§3e").updateTag(<enchantment:cofhcore:vorpal>.makeEnchantment(10)).updateTag(<enchantment:minecraft:sharpness>.makeEnchantment(10)),
-    [[<armorplus:material:3>, <armorplus:material:3>,<armorplus:material:3>],
-    [null, <cyclicmagic:sign_editor>, null],
-    [null, <cyclicmagic:sign_editor>, null]
-    ]);
-
-recipes.addShaped("dreeadHammer", <thermalfoundation:tool.hammer_diamond>.withDisplayName("§3Dreadful Hammer").updateTag(<enchantment:minecraft:unbreaking>.makeEnchantment(3)).updateTag(<enchantment:minecraft:efficiency>.makeEnchantment(10)),
-    [[<armorplus:material:3>, <armorplus:material:3>, <armorplus:material:3>],
-    [<armorplus:material:3>, <thermalfoundation:material:2052>, <armorplus:material:3>],
-    [null, <thermalfoundation:material:2052>, null]
     ]);
 
 recipes.addShaped("titanstone", <plants2:crystal:6>,
@@ -186,4 +192,12 @@ recipes.addShapeless("staghorncoral", <zawa:staghorn_coral>*3,
     [<zawa:staghorn_coral>, <plants2:plantball>]
     );
 
-
+// basketcase extra uses recipes
+recipes.addShapeless("cordyString", <minecraft:string>,
+    [<basketcase:item_cordage>,<basketcase:item_cordage>]);
+    
+recipes.addShapedMirrored("sticks", <minecraft:stick>,
+    [[<basketcase:item_bark_strips>|<basketcase:item_twig>, null, null],
+    [null, <basketcase:item_bark_strips>|<basketcase:item_twig>, null],
+    [null, null, <basketcase:item_bark_strips>|<basketcase:item_twig>]]
+    );
