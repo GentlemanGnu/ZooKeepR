@@ -23,9 +23,22 @@ recipes.addShaped("dreeadHammer", <thermalfoundation:tool.hammer_diamond>.withDi
     ]);
     
 // crafting for difficult resources
+recipes.addShaped("cobweb", <minecraft:web>,
+    [[<minecraft:string>, null, <minecraft:string>],
+    [null, <minecraft:slime_ball>, null],
+    [<minecraft:string>, null, <minecraft:string>]
+    ]);
+
+recipes.addShaped("exp", <minecraft:experience_bottle>,
+    [[<oreberries:essence_oreberry>,<oreberries:essence_oreberry>,<oreberries:essence_oreberry>],
+    [<oreberries:essence_oreberry>,<oreberries:essence_oreberry>,<oreberries:essence_oreberry>],
+    [<oreberries:essence_oreberry>,<oreberries:essence_oreberry>,<oreberries:essence_oreberry>]
+    ]);
+
 recipes.addShapedMirrored("flint_craft", <minecraft:flint>*2,  
     [[<minecraft:gravel>, <minecraft:gravel>],
-    [<minecraft:gravel>]]);
+    [<minecraft:gravel>]]
+    );
 
 recipes.addShapedMirrored("kitchen_floor", <cookingforblockheads:kitchen_floor>*8,
     [[<quark:basalt:1>, <ore:stoneMarble>],
@@ -55,7 +68,7 @@ recipes.addShaped("zookeeprGuide", <gbook:guidebook>.withTag({Book: "gbook:zooke
     );
 
 recipes.addShaped("blankPencil", <biomepainttools:biome_pencil:256>,
-    [[<biomepainttools:biome_pencil>]]
+    [[<biomepainttools:biome_pencil>.anyDamage()]]
 	);
 
 recipes.addShaped("netherstar", <minecraft:nether_star>,
@@ -93,6 +106,12 @@ recipes.addShaped("titanstone", <plants2:crystal:6>,
     [<minecraft:dye:4>, <minecraft:ender_eye>, <minecraft:dye:4>],
     [<minecraft:gold_nugget>, <minecraft:dye:4>, <minecraft:gold_nugget>]
     ]);
+
+recipes.addShapeless("Bamboo", <zawa:bamboo>*4,
+    [<zawa:bamboo>, <plants2:plantball>]);
+
+recipes.addShapeless("DryBamboo", <zawa:dried_bamboo>*4,
+    [<zawa:dried_bamboo>, <plants2:plantball>]);
 
 recipes.addShaped("reefBlock", <coralreef:reef>,
     [[null, <plants2:plantball>, null],
@@ -192,6 +211,65 @@ recipes.addShapeless("staghorncoral", <zawa:staghorn_coral>*3,
     [<zawa:staghorn_coral>, <plants2:plantball>]
     );
 
+// dyeing the nt sands
+recipes.addShaped("white_sand", <nt:white_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <plants2:generic:4>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("cold_sand", <nt:cold_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:9>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("black_sand", <nt:black_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <plants2:generic:1>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("olivine_sand", <nt:olivine_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:10>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("pink_sand", <nt:pink_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:13>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+    
+recipes.addShaped("purple_sand", <nt:purple_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:5>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("contintental_sand", <nt:continental_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <plants2:generic:3>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+recipes.addShaped("iron_sand", <nt:iron_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:1>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+
+recipes.addShaped("orange_sand", <nt:orange_sand>*8, 
+    [[<minecraft:sand>, <minecraft:sand>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:dye:14>, <minecraft:sand>],
+    [<minecraft:sand>, <minecraft:sand>, <minecraft:sand>]
+    ]);
+
+
+
+
 // basketcase extra uses recipes
 recipes.addShapeless("cordyString", <minecraft:string>,
     [<basketcase:item_cordage>,<basketcase:item_cordage>]);
@@ -201,3 +279,34 @@ recipes.addShapedMirrored("sticks", <minecraft:stick>,
     [null, <basketcase:item_bark_strips>|<basketcase:item_twig>, null],
     [null, null, <basketcase:item_bark_strips>|<basketcase:item_twig>]]
     );
+
+// oreberries compat
+recipes.addShaped("ironberry", <minecraft:iron_ingot>, 
+    [[<oreberries:iron_oreberry>, <oreberries:iron_oreberry>, <oreberries:iron_oreberry>],
+    [<oreberries:iron_oreberry>, <oreberries:iron_oreberry>, <oreberries:iron_oreberry>],
+    [<oreberries:iron_oreberry>, <oreberries:iron_oreberry>, <oreberries:iron_oreberry>]
+    ]);
+
+recipes.addShaped("goldberry", <minecraft:gold_ingot>, 
+    [[<oreberries:gold_oreberry>, <oreberries:gold_oreberry>, <oreberries:gold_oreberry>],
+    [<oreberries:gold_oreberry>, <oreberries:gold_oreberry>, <oreberries:gold_oreberry>],
+    [<oreberries:gold_oreberry>, <oreberries:gold_oreberry>, <oreberries:gold_oreberry>]
+    ]);
+
+recipes.addShaped("copperberry", <thermalfoundation:material:128>, 
+    [[<oreberries:copper_oreberry>, <oreberries:copper_oreberry>, <oreberries:copper_oreberry>],
+    [<oreberries:copper_oreberry>, <oreberries:copper_oreberry>, <oreberries:copper_oreberry>],
+    [<oreberries:copper_oreberry>, <oreberries:copper_oreberry>, <oreberries:copper_oreberry>]
+    ]);
+
+recipes.addShaped("tinberry", <thermalfoundation:material:129>, 
+    [[<oreberries:tin_oreberry>, <oreberries:tin_oreberry>, <oreberries:tin_oreberry>],
+    [<oreberries:tin_oreberry>, <oreberries:tin_oreberry>, <oreberries:tin_oreberry>],
+    [<oreberries:tin_oreberry>, <oreberries:tin_oreberry>, <oreberries:tin_oreberry>]
+    ]);    
+
+recipes.addShaped("aluminumberry", <thermalfoundation:material:132>, 
+    [[<oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>],
+    [<oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>],
+    [<oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>, <oreberries:aluminum_oreberry>]
+    ]);
