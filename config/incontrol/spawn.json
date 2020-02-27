@@ -27,6 +27,18 @@
   },
   {
     "dimension": 0,
+    "mob": "minecraft:zombie_pigman",
+    "spawner":"true",
+    "maxlight":"7",
+    "result": "default"
+  },
+  {
+    "dimension": 0,
+    "mob": "minecraft:zombie_pigman",
+    "result": "deny"
+  },
+  {
+    "dimension": 0,
     "mob": "minecraft:slime",
     "spawner":"true",
     "minlight":"7",

@@ -21,6 +21,17 @@
           "groupcountmax": 9
         }
       ]
+    },
+    {
+      "dimension": 0,
+      "mobs": [
+        {
+          "mob": "minecraft:zombie_pigman",
+          "weight": 20,
+          "groupcountmin": 1,
+          "groupcountmax": 9
+        }
+      ]
     }
 ]
 
