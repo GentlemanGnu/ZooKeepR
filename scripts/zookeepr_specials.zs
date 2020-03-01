@@ -1,7 +1,48 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.oredict.IOreDict;
 
 recipes.remove(<faunanatural:dagger_tooth>);
+
+// bark uses
+recipes.addShaped("barktorches", <minecraft:torch>*32,
+    [[<ore:barkWood>,<ore:barkWood>,<ore:barkWood>],
+    [<ore:barkWood>,<minecraft:coal>|<minecraft:coal:1>,<ore:barkWood>],
+    [<ore:barkWood>,<ore:barkWood>,<ore:barkWood>]
+    ]);
+recipes.addShaped("barksticks", <minecraft:stick>*8,
+    [[<ore:barkWood>],
+    [<ore:barkWood>]
+    ]);
+recipes.addShaped("barkbowl", <minecraft:bowl>,
+    [[<ore:barkWood>, null, <ore:barkWood>],
+    [null, <ore:barkWood>, null]
+    ]);
+
+recipes.addShaped("barkwooddarkoak", <minecraft:log2:1>,
+    [[<basketcase:item_bark_dark_oak>,<basketcase:item_bark_dark_oak>],
+    [<basketcase:item_bark_dark_oak>,<basketcase:item_bark_dark_oak>]
+    ]);
+recipes.addShaped("barkwoodacacia", <minecraft:log2>,
+    [[<basketcase:item_bark_acacia>,<basketcase:item_bark_acacia>],
+    [<basketcase:item_bark_acacia>,<basketcase:item_bark_acacia>]
+    ]);
+recipes.addShaped("barkwoodoak", <minecraft:log>,
+    [[<basketcase:item_bark_oak>,<basketcase:item_bark_oak>],
+    [<basketcase:item_bark_oak>,<basketcase:item_bark_oak>]
+    ]);
+recipes.addShaped("barkwoodspruce", <minecraft:log:1>,
+    [[<basketcase:item_bark_acacia>,<basketcase:item_bark_acacia>],
+    [<basketcase:item_bark_acacia>,<basketcase:item_bark_acacia>]
+    ]);
+recipes.addShaped("barkwoodbirch", <minecraft:log:2>,
+    [[<basketcase:item_bark_birch>,<basketcase:item_bark_birch>],
+    [<basketcase:item_bark_birch>,<basketcase:item_bark_birch>]
+    ]);
+recipes.addShaped("barkwoodjungle", <minecraft:log:3>,
+    [[<basketcase:item_bark_jungle>,<basketcase:item_bark_jungle>],
+    [<basketcase:item_bark_jungle>,<basketcase:item_bark_jungle>]
+    ]);
 
 // vanity items
 recipes.addShapedMirrored("sugarRollingPin",  <faunanatural:dagger_tooth>.withDisplayName("Sugar Rolling Pin").updateTag(<enchantment:minecraft:knockback>.makeEnchantment(10)),
