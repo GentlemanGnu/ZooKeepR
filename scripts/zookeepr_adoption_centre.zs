@@ -33,6 +33,7 @@ val verySmallValueMobs = [
 	"minecraft:rabbit",
 	"zoocraftdiscoveries:gecko",
 	"betteranimalsplus:squirrel",
+	"betteranimalsplus:bobbit_worm",
 	"zawa:orca",
 	"exoticbirds:budgerigar",
 	"exoticbirds:kookaburra",
@@ -54,7 +55,7 @@ val verySmallValueMobs = [
 	"exoticbirds:magpie",
 	"exoticbirds:kingfisher",
 	"exoticbirds:hummingbird",
-	"exoticbirds:goulianfinch",
+	"exoticbirds:gouldianfinch",
 	"exoticbirds:duck"
 ] as string[];
 
@@ -105,6 +106,9 @@ val mediumValueMobs = [
 	"faunanatural:axolotl",
 	"faunanatural:american_bison",
 	"betteranimalsplus:reindeer",
+	"betteranimalsplus:lammergeier",
+	"betteranimalsplus:moose",
+	"betteranimalsplus:turkey",
 	"waddles:adelie_penguin",
 	"zoocraftdiscoveries:chinchilla",
 	"faunanatural:willow_ptarmigan",
@@ -161,6 +165,10 @@ val veryLargeValueMobs = [
 	"minecraft:guardian",
 	"minecraft:skeleton_horse",
 	"minecraft:elder_guardian",
+	"betteranimalsplus:zotzpyre",
+	"bearwithme:entities/panda_bear",
+	"bearwithme:entities/brown_bear",
+	"bearwithme:entities/black_bear",
 	"quark:pirate",
 	"minecraft:zombie_villager",
 	"minecraft:evocation_illager",
@@ -216,6 +224,7 @@ mods.Delivery.Store.addTrade(<zawa:indian_gharial>).addItem(<modcurrency:coin:4>
 mods.Delivery.Store.addTrade(<zawa:japanese_giant_salamander>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:red_kangaroo>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:tree_frog>).addItem(<modcurrency:coin:4>*64);
+mods.Delivery.Store.addTrade(<zawa:polar_bear>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:western_lowland_gorilla>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:black_spider_monkey>).addItem(<modcurrency:coin:4>*64);
 mods.Delivery.Store.addTrade(<zawa:asian_elephant>).addItem(<modcurrency:coin:4>*64);
